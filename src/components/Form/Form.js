@@ -17,6 +17,7 @@ export default class Form extends Component {
 
   handleSubmit = evt => {
     evt.preventDefault();
+    // eslint-disable-next-line no-console
     console.log(this.state);
     this.reset();
   };
@@ -26,7 +27,7 @@ export default class Form extends Component {
   }
 
   render() {
-    const { name, tel, email } = this.state;
+    const { name, phone, email } = this.state;
 
     return (
       <form onSubmit={this.handleSubmit}>
@@ -41,7 +42,7 @@ export default class Form extends Component {
           type="tel"
           name="phone"
           placeholder="Телефон"
-          value={tel}
+          value={phone}
           onChange={this.handleChange}
         />
         <input
