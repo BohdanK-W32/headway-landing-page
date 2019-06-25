@@ -3,8 +3,10 @@ import Header from '../Header/Header';
 import Modal from '../Modal/Modal';
 import ModalButton from '../ModalButton/ModalButton';
 import PersonList from '../PersonList/PersonList';
+import ModulesList from '../ModulesList/ModulesList';
 
 import persons from '../../mock/persons.json';
+import businessModules from '../../mock/businessModules.json';
 
 const h2Style = {
   textTransform: 'uppercase',
@@ -56,6 +58,7 @@ export default class Page extends Component {
 
   openModal = () => {
     this.setState({ isModalOpen: true });
+    this.uncheck();
   };
 
   handleChange = e => {
@@ -83,7 +86,7 @@ export default class Page extends Component {
             <h1 style={h1Style}>
               мы вдохновляем подростков раскрывать свой потенциал
             </h1>
-            <img style={students} alt="students" src="/img/students@1X.png" />
+            <img style={students} alt="students" src="./img/students@1X.png" />
             <ModalButton
               style={marginBottom}
               content="Записаться на пробное занятие"
@@ -91,11 +94,12 @@ export default class Page extends Component {
             />
           </section>
           {isModalOpen && <Modal onClick={this.closeModal} />}
-          <PersonList items={persons} />
           <section style={flexColumn}>
             <h2 style={h2Style}>присоединяйся к успешным подросткам 21 века</h2>
-            <img style={students} src="/img/students2.png" alt="students" />
+            <img style={students} src="./img/students2.png" alt="students" />
           </section>
+          <PersonList items={persons} />
+          <ModulesList title="бизнес старт" items={businessModules} />
         </main>
       </>
     );

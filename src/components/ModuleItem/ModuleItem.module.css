@@ -1,0 +1,20 @@
+.module {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.module:nth-child(2n) {
+  align-items: flex-start;
+}
+
+.title {
+  padding: 6px 12px;
+  color: #fff;
+  background-color: #4b79bb;
+  text-transform: uppercase;
+}
+
+.steps {
+  font-size: 14px;
+}

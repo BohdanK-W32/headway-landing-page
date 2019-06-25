@@ -8,13 +8,13 @@ const Header = ({ typeOfDevice, children }) => (
       <img
         className={styles.logoImg}
         alt="HeadWay logo"
-        src="/img/logo@1X.png"
+        src="./img/logo@1X.png"
       />
     </a>
     {typeOfDevice < 768 && (
       <nav role="navigation">
         <div id="menuToggle">
-          <input type="checkbox" />
+          <input type="checkbox" id="burger" />
           <span></span>
           <span></span>
           <span></span>

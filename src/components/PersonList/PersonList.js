@@ -13,7 +13,7 @@ const PersonList = ({ items }) => (
         photoSrc={item.photo}
       />
     ))}
-    <PersonItem name="СЛЕДУЮЩИЙ ИМЕННО ТЫ!" photoSrc="/img/question@1X.jpeg" />
+    <PersonItem name="СЛЕДУЮЩИЙ ИМЕННО ТЫ!" photoSrc="./img/question@1X.jpeg" />
   </section>
 );
 
