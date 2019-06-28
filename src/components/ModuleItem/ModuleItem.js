@@ -5,10 +5,12 @@ import style from './ModuleItem.module.css';
 
 const ModuleItem = ({ module }) => (
   <div className={style.module}>
-    <h5 className={style.title}>{module.num}</h5>
+    {module.num !== '' && <h5 className={style.title}>{module.num}</h5>}
     <div className={style.steps}>
       {module.step.map(el => (
-        <p key={uuid()}>{el}</p>
+        <p key={uuid()} className={style.step}>
+          {el}
+        </p>
       ))}
     </div>
   </div>

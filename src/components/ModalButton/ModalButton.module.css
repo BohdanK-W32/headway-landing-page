@@ -1,8 +1,11 @@
 .btn {
+  font-family: 'Gotham Pro';
   color: white;
-  background: linear-gradient(to right, #ffe100, #ff7d00);
+  background: linear-gradient(to right, #ffe100 0%, #f29c0b 55%, #ff7d00 100%);
   border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-weight: 900;
+  border-radius: 7px;
+  padding: 10px 12px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 12px;
 }

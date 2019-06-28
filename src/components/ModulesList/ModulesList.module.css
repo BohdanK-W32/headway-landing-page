@@ -1,0 +1,22 @@
+.title {
+  font-weight: 400;
+  width: min-content;
+  white-space: nowrap;
+  padding: 6px 6px 3px 6px;
+  margin: 16px 16px 16px 0;
+  text-transform: uppercase;
+  background: linear-gradient(
+    to right,
+    rgba(183, 216, 227, 1) 0%,
+    rgba(183, 216, 227, 0.74) 37%,
+    rgba(183, 216, 227, 0.09) 100%
+  );
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import style from './Form.module.css';
 import ModalButton from '../ModalButton/ModalButton';
 
 const INITIAL_STATE = {
@@ -30,8 +31,9 @@ export default class Form extends Component {
     const { name, phone, email } = this.state;
 
     return (
-      <form onSubmit={this.handleSubmit}>
+      <form className={style.form} onSubmit={this.handleSubmit}>
         <input
+          className={style.input}
           type="text"
           name="name"
           placeholder="Имя и Фамилия"
@@ -39,6 +41,7 @@ export default class Form extends Component {
           onChange={this.handleChange}
         />
         <input
+          className={style.input}
           type="tel"
           name="phone"
           placeholder="Телефон"
@@ -46,6 +49,7 @@ export default class Form extends Component {
           onChange={this.handleChange}
         />
         <input
+          className={style.input}
           type="email"
           name="email"
           placeholder="Почта"

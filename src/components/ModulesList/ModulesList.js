@@ -1,12 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import uuid from 'uuid/v4';
 import ModuleItem from '../ModuleItem/ModuleItem';
+import style from './ModulesList.module.css';
 
 const ModulesList = ({ title, items }) => (
-  <section>
-    <h3>{title}</h3>
+  <section className={style.list}>
+    <h3 className={style.title}>{title}</h3>
     {items.map(module => (
-      <ModuleItem key={module.num} module={module} />
+      <ModuleItem key={uuid()} module={module} />
     ))}
   </section>
 );
