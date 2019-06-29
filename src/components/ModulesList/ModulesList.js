@@ -5,7 +5,7 @@ import ModuleItem from '../ModuleItem/ModuleItem';
 import style from './ModulesList.module.css';
 
 const ModulesList = ({ title, items }) => (
-  <section className={style.list}>
+  <section id="courses" className={style.list}>
     <h3 className={style.title}>{title}</h3>
     {items.map(module => (
       <ModuleItem key={uuid()} module={module} />

@@ -7,7 +7,7 @@ import Form from '../Form/Form';
 const Modal = ({ onClick }) => (
   <div className={style.modal}>
     <h2 className={style.title}>Оформить заявку</h2>
-    <button type="button" onClick={onClick}>
+    <button className={style.btn} type="button" onClick={onClick}>
       <span className={style.span} />
       <span className={style.span} />
     </button>

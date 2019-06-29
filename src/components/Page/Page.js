@@ -4,6 +4,7 @@ import businessModules from '../../mock/businessModules.json';
 import englishModules from '../../mock/englishModules.json';
 import businessSkills from '../../mock/businessSkills.json';
 import englishSkills from '../../mock/englishSkills.json';
+import teachers from '../../mock/teachers.json';
 
 import Header from '../Header/Header';
 import Modal from '../Modal/Modal';
@@ -11,6 +12,7 @@ import ModalButton from '../ModalButton/ModalButton';
 import PersonList from '../PersonList/PersonList';
 import ModulesList from '../ModulesList/ModulesList';
 import SkillsList from '../SkillsList/SkillsList';
+import TeachersSlider from '../TeachersSlider/TeachersSlider';
 import EducationFormatList from '../EducationFormatList/EducationFormatList';
 import Footer from '../Footer/Footer';
 
@@ -18,7 +20,7 @@ const h2Style = {
   textTransform: 'uppercase',
   padding: '12px 6px',
   boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
-  fontSize: 11,
+  fontSize: 12,
   fontWeight: 400,
 };
 
@@ -50,7 +52,7 @@ const flexColumn = {
 const marginBottom70px = { marginBottom: 70 };
 
 const students = {
-  width: '85%',
+  width: '90%',
   height: 'auto',
   margin: 'auto',
   marginBottom: 5,
@@ -130,6 +132,7 @@ export default class Page extends Component {
             business={businessSkills}
             english={englishSkills}
           />
+          <TeachersSlider teachers={teachers} />
           <EducationFormatList
             title="формат обучения"
             onClick={this.openModal}

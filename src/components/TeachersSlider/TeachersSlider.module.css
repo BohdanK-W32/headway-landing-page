@@ -1,0 +1,65 @@
+.wrapper {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.teachersWrapper {
+  display: flex;
+  overflow: hidden;
+}
+
+.teachersWrapper::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.btn {
+  position: absolute;
+  top: 39%;
+  transform: translate(0, -39%);
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.leftBtn {
+  composes: btn;
+  left: 4%;
+}
+
+.rightBtn {
+  composes: btn;
+  right: 4%;
+}
+
+.teacher {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.photo {
+  width: 70%;
+  height: auto;
+  margin-bottom: 25px;
+  border-radius: 50%;
+  box-shadow: 0 6px 12px 4px rgba(0, 0, 0, 0.2);
+}
+
+.name {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.icon {
+  width: 25px;
+  height: auto;
+}
