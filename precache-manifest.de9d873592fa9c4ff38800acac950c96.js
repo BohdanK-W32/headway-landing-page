@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "14b4669b0f111255d36df4662ff6f7c2",
+    "revision": "00278d6b2f9f37d7553787ab1ec7da0c",
     "url": "/headway-landing-page/index.html"
   },
   {
-    "revision": "5bc2cf1075e326482e75",
-    "url": "/headway-landing-page/static/css/main.ae93180c.chunk.css"
+    "revision": "29cfa80007f036c71adf",
+    "url": "/headway-landing-page/static/css/main.a46cd309.chunk.css"
   },
   {
-    "revision": "a3ebcf2dcd0d8edab9c6",
-    "url": "/headway-landing-page/static/js/2.a0d2b78a.chunk.js"
+    "revision": "1f017372c82af1d9ae14",
+    "url": "/headway-landing-page/static/js/2.fdd46cd8.chunk.js"
   },
   {
-    "revision": "5bc2cf1075e326482e75",
-    "url": "/headway-landing-page/static/js/main.7e33d6b0.chunk.js"
+    "revision": "29cfa80007f036c71adf",
+    "url": "/headway-landing-page/static/js/main.bf8fddca.chunk.js"
   },
   {
     "revision": "eccfe6e79204bf089141",
@@ -164,6 +164,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/headway-landing-page/static/media/GothamProNarrow-Medium.87194aeb.eot"
   },
   {
+    "revision": "08c1899cc5774de875f2daca4d3a33ed",
+    "url": "/headway-landing-page/static/media/couple.08c1899c.png"
+  },
+  {
     "revision": "9ba880bc8a6fd4c830b16ccdaa163bbc",
     "url": "/headway-landing-page/static/media/footer-background.9ba880bc.png"
   },
@@ -174,5 +178,17 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "82393efec51e3fab12ccc31e7a7b57e5",
     "url": "/headway-landing-page/static/media/modal-wallpaper@1X.82393efe.jpeg"
+  },
+  {
+    "revision": "f1192b4d10f6dfb19ba42592419bf0e6",
+    "url": "/headway-landing-page/static/media/personList-background.f1192b4d.png"
+  },
+  {
+    "revision": "326e445310fd45d3e8b766c259fb089d",
+    "url": "/headway-landing-page/static/media/personList-background2.326e4453.png"
+  },
+  {
+    "revision": "9a3d53a9667bd23fd86a26be894e0fb3",
+    "url": "/headway-landing-page/static/media/teachers-background.9a3d53a9.png"
   }
 ]);
