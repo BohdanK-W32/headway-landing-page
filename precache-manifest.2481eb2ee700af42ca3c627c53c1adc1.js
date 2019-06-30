@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00278d6b2f9f37d7553787ab1ec7da0c",
+    "revision": "8f581e55a280e3c74a9bb2ec0fba6d24",
     "url": "/headway-landing-page/index.html"
   },
   {
-    "revision": "29cfa80007f036c71adf",
-    "url": "/headway-landing-page/static/css/main.a46cd309.chunk.css"
+    "revision": "4e2c8641ceafdab4ac16",
+    "url": "/headway-landing-page/static/css/main.ef2d6c8a.chunk.css"
   },
   {
     "revision": "1f017372c82af1d9ae14",
     "url": "/headway-landing-page/static/js/2.fdd46cd8.chunk.js"
   },
   {
-    "revision": "29cfa80007f036c71adf",
+    "revision": "4e2c8641ceafdab4ac16",
     "url": "/headway-landing-page/static/js/main.bf8fddca.chunk.js"
   },
   {
