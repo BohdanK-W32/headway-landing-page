@@ -12,6 +12,7 @@
   color: #fff;
   background-color: #4b79bb;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .steps {
@@ -21,4 +22,22 @@
 .step {
   margin: 6px;
   line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 14px;
+  }
+
+  .module {
+    min-height: 100px;
+  }
+
+  .module:nth-child(2n) {
+    align-items: flex-end;
+  }
+
+  .steps {
+    max-width: 280px;
+  }
 }

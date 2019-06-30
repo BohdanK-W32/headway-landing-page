@@ -24,6 +24,14 @@ const h2Style = {
   fontWeight: 400,
 };
 
+const h2Style768 = {
+  textTransform: 'uppercase',
+  padding: '12px 6px',
+  boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
+  fontSize: 18,
+  fontWeight: 400,
+};
+
 const h1Style = {
   color: '#EEE',
   textTransform: 'uppercase',
@@ -32,10 +40,28 @@ const h1Style = {
   fontSize: 13,
 };
 
+const h1Style768 = {
+  color: '#FFF',
+  textTransform: 'uppercase',
+  margin: '8px 0 32px 8px',
+  lineHeight: '1.1',
+  fontSize: 18,
+};
+
 const wayStyle = {
   textTransform: 'uppercase',
   padding: '12px 6px',
   fontSize: 13,
+  textAlign: 'center',
+  margin: '0 auto',
+  marginBottom: 30,
+  fontWeight: 400,
+};
+
+const wayStyle768 = {
+  textTransform: 'uppercase',
+  padding: '12px 6px',
+  fontSize: 20,
   textAlign: 'center',
   margin: '0 auto',
   marginBottom: 60,
@@ -46,16 +72,23 @@ const flexColumn = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  marginBottom: 80,
+  marginBottom: 40,
 };
 
-const marginBottom70px = { marginBottom: 70 };
+const marginBottom50px = { marginBottom: 50 };
 
 const students = {
   width: '90%',
   height: 'auto',
   margin: 'auto',
-  marginBottom: 5,
+  marginBottom: 40,
+};
+
+const students768 = {
+  width: '70%',
+  height: 'auto',
+  margin: 'auto',
+  marginBottom: 35,
 };
 
 export default class Page extends Component {
@@ -104,26 +137,41 @@ export default class Page extends Component {
         {isModalOpen && <Modal onClick={this.closeModal} />}
         <main>
           <section style={flexColumn}>
-            <h1 style={h1Style}>
+            <h1 style={width < 768 ? h1Style : h1Style768}>
               мы вдохновляем подростков раскрывать свой потенциал
             </h1>
-            <img style={students} alt="students" src="./img/students@1X.png" />
+            <img
+              style={width < 768 ? students : students768}
+              alt="students"
+              src="./img/students@1X.png"
+            />
             <ModalButton
-              style={marginBottom70px}
               content="Записаться на пробное занятие"
               onClick={this.openModal}
             />
           </section>
           <section style={flexColumn}>
-            <h2 style={h2Style}>присоединяйся к успешным подросткам 21 века</h2>
-            <img style={students} src="./img/students2.png" alt="students" />
+            <h2 style={width < 768 ? h2Style : h2Style768}>
+              присоединяйся к успешным подросткам 21 века
+            </h2>
+            <img
+              style={width < 768 ? students : students768}
+              src="./img/students2.png"
+              alt="students"
+            />
           </section>
           <PersonList items={persons} />
-          <h2 style={wayStyle}>путь успеха для вашего подростка</h2>
-          <ModulesList title="бизнес старт" items={businessModules} />
-          <ModulesList title="english" items={englishModules} />
+          <h2 style={width < 768 ? wayStyle : wayStyle768}>
+            путь успеха для вашего подростка
+          </h2>
+          <ModulesList
+            title1="бизнес старт"
+            title2="english"
+            items1={businessModules}
+            items2={englishModules}
+          />
           <ModalButton
-            style={marginBottom70px}
+            style={marginBottom50px}
             content="Записаться на пробное занятие"
             onClick={this.openModal}
           />
@@ -132,7 +180,7 @@ export default class Page extends Component {
             business={businessSkills}
             english={englishSkills}
           />
-          <TeachersSlider teachers={teachers} />
+          <TeachersSlider title="наши преподаватели" teachers={teachers} />
           <EducationFormatList
             title="формат обучения"
             onClick={this.openModal}

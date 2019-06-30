@@ -28,8 +28,10 @@ const Footer = () => (
         </a>
       </div>
     </section>
-    <p className={style.text}>Согласие с рассылкой</p>
-    <p className={style.text}>Политика конфиденциальности</p>
+    <div className={style.other}>
+      <p className={style.text}>Согласие с рассылкой</p>
+      <p className={style.text}>Политика конфиденциальности</p>
+    </div>
     <div className={style.iconsWrapper}>
       <img
         className={style.icon}

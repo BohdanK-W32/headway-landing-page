@@ -21,3 +21,31 @@
   margin: 0 auto;
   margin-bottom: 50px;
 }
+
+.list1 {
+  composes: list;
+}
+
+.list2 {
+  composes: list;
+}
+
+@media (min-width: 768px) {
+  .list {
+    max-width: 600px;
+    padding: 25px 0;
+  }
+
+  .list1 {
+    max-width: 600px;
+    padding: 25px 0;
+    background: url('../../img/businessModules-background.png') center 70px
+      no-repeat;
+  }
+
+  .list2 {
+    max-width: 320px;
+    background: url('../../img/englishModules-background.png') calc(50% + 17px)
+      75px no-repeat;
+  }
+}

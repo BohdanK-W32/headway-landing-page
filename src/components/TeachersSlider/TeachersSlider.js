@@ -7,6 +7,7 @@ export default class TeachersSlider extends Component {
   state = {};
 
   static propTypes = {
+    title: PropTypes.string.isRequired,
     teachers: PropTypes.arrayOf(
       PropTypes.shape({
         imgSrc: PropTypes.string.isRequired,
@@ -29,10 +30,11 @@ export default class TeachersSlider extends Component {
   };
 
   render() {
-    const { teachers } = this.props;
+    const { teachers, title } = this.props;
 
     return (
       <section className={style.wrapper}>
+        <h3 className={style.title}>{title}</h3>
         <div ref={this.sliderRef} className={style.teachersWrapper}>
           {teachers.map(teacher => (
             <div className={style.teacher} key={uuid()}>

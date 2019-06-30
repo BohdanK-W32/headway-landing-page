@@ -25,3 +25,33 @@
   text-align: center;
   line-height: 1.5;
 }
+
+@media (min-width: 768px) {
+  .person {
+    max-width: 100%;
+    flex-direction: row;
+    font-size: 16px;
+    margin-bottom: 38px;
+  }
+
+  .img {
+    max-width: 25%;
+    margin-right: 55px;
+    margin-bottom: 0;
+  }
+
+  .textWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .name {
+    text-align: left;
+  }
+
+  .about {
+    text-align: left;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+}

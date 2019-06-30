@@ -4,14 +4,14 @@ import styles from './Header.module.css';
 
 const Header = ({ typeOfDevice, children }) => (
   <header className={styles.header} id="header">
-    <a href="#root">
+    <a className={styles.logo} href="#root">
       <img
         className={styles.logoImg}
         alt="HeadWay logo"
         src="./img/logo@1X.png"
       />
     </a>
-    {typeOfDevice < 768 && (
+    {typeOfDevice < 768 ? (
       <nav role="navigation">
         <div id="menuToggle">
           <input type="checkbox" id="burger" />
@@ -31,6 +31,21 @@ const Header = ({ typeOfDevice, children }) => (
             {children}
           </ul>
         </div>
+      </nav>
+    ) : (
+      <nav>
+        <ul id="defaultMenu">
+          <a href="#root">
+            <li>Про нас</li>
+          </a>
+          <a href="#courses">
+            <li>Курсы</li>
+          </a>
+          <a href="#footer">
+            <li>Контакты</li>
+          </a>
+          {children}
+        </ul>
       </nav>
     )}
   </header>

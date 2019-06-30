@@ -36,3 +36,28 @@
   max-width: 90%;
   margin-top: 4px;
 }
+
+@media (min-width: 768px) {
+  .skill {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .title {
+    font-size: 16px;
+    padding: 12px 20px 12px 15px;
+  }
+
+  .item {
+    margin-left: 10px;
+    margin-bottom: 12px;
+  }
+
+  .checkImg {
+    margin: 0 25px 0 0;
+  }
+
+  .text {
+    font-size: 16px;
+  }
+}

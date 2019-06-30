@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   font-size: 10px;
+  margin-bottom: 10px;
 }
 
 .address {
@@ -44,11 +45,66 @@
 }
 
 .iconsWrapper {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
 .icon {
   width: 25px;
   margin: 5px 10px;
+}
+
+@media (min-width: 768px) {
+  .footer {
+    max-width: 100vw;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.2);
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .address {
+    align-items: flex-start;
+    line-height: 1.4;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .contacts {
+    align-items: flex-start;
+    line-height: 1.4;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .plainText {
+    line-height: 1.4;
+    font-size: 13px;
+    font-weight: 400;
+  }
+
+  .contact {
+    line-height: 1.4;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .other {
+    line-height: 1.4;
+    text-align: left;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  .icon {
+    margin: 5px 10px;
+  }
+
+  .iconsWrapper {
+    position: static;
+  }
 }

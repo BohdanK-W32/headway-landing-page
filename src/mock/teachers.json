@@ -1,27 +1,77 @@
 [
   {
     "imgSrc": "./img/circle.jpg",
-    "name": "Иван Иванов",
+    "name": "Альбус Дамблдор",
     "subtitle": "Преподаватель"
   },
   {
     "imgSrc": "./img/circle.jpg",
-    "name": "Иван Иванов",
+    "name": "Северус Снейп",
     "subtitle": "Преподаватель"
   },
   {
     "imgSrc": "./img/circle.jpg",
-    "name": "Иван Иванов",
+    "name": "Сириус Блэк",
     "subtitle": "Преподаватель"
   },
   {
     "imgSrc": "./img/circle.jpg",
-    "name": "Иван Иванов",
+    "name": "Минерва Макгонагалл",
     "subtitle": "Преподаватель"
   },
   {
     "imgSrc": "./img/circle.jpg",
-    "name": "Иван Иванов",
+    "name": "Лорд Волан-де-Морт",
+    "subtitle": "Преподаватель"
+  },
+  {
+    "imgSrc": "./img/circle.jpg",
+    "name": "Альбус Дамблдор",
+    "subtitle": "Преподаватель"
+  },
+  {
+    "imgSrc": "./img/circle.jpg",
+    "name": "Северус Снейп",
+    "subtitle": "Преподаватель"
+  },
+  {
+    "imgSrc": "./img/circle.jpg",
+    "name": "Сириус Блэк",
+    "subtitle": "Преподаватель"
+  },
+  {
+    "imgSrc": "./img/circle.jpg",
+    "name": "Минерва Макгонагалл",
+    "subtitle": "Преподаватель"
+  },
+  {
+    "imgSrc": "./img/circle.jpg",
+    "name": "Лорд Волан-де-Морт",
+    "subtitle": "Преподаватель"
+  },
+  {
+    "imgSrc": "./img/circle.jpg",
+    "name": "Альбус Дамблдор",
+    "subtitle": "Преподаватель"
+  },
+  {
+    "imgSrc": "./img/circle.jpg",
+    "name": "Северус Снейп",
+    "subtitle": "Преподаватель"
+  },
+  {
+    "imgSrc": "./img/circle.jpg",
+    "name": "Сириус Блэк",
+    "subtitle": "Преподаватель"
+  },
+  {
+    "imgSrc": "./img/circle.jpg",
+    "name": "Минерва Макгонагалл",
+    "subtitle": "Преподаватель"
+  },
+  {
+    "imgSrc": "./img/circle.jpg",
+    "name": "Лорд Волан-де-Морт",
     "subtitle": "Преподаватель"
   }
 ]
