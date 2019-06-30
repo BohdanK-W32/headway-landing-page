@@ -148,6 +148,13 @@ body {
   background: url('./img/main-background.png') top center no-repeat,
     url('./img/footer-background.png') bottom center no-repeat;
   background-size: 100vw;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+#root {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 
 code {
