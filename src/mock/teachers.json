@@ -1,27 +1,27 @@
 [
   {
     "imgSrc": "./img/circle.jpg",
-    "name": "Альбус Дамблдор",
+    "name": "Иван Иванов",
     "subtitle": "Преподаватель"
   },
   {
     "imgSrc": "./img/circle.jpg",
-    "name": "Северус Снейп",
+    "name": "Иван Иванов",
     "subtitle": "Преподаватель"
   },
   {
     "imgSrc": "./img/circle.jpg",
-    "name": "Сириус Блэк",
+    "name": "Иван Иванов",
     "subtitle": "Преподаватель"
   },
   {
     "imgSrc": "./img/circle.jpg",
-    "name": "Минерва Макгонагалл",
+    "name": "Иван Иванов",
     "subtitle": "Преподаватель"
   },
   {
     "imgSrc": "./img/circle.jpg",
-    "name": "Лорд Волан-де-Морт",
+    "name": "Иван Иванов",
     "subtitle": "Преподаватель"
   }
 ]
