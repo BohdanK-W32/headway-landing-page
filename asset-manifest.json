@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/headway-landing-page/static/css/main.5fff771b.chunk.css",
-    "main.js": "/headway-landing-page/static/js/main.bf8fddca.chunk.js",
-    "main.js.map": "/headway-landing-page/static/js/main.bf8fddca.chunk.js.map",
+    "main.css": "/headway-landing-page/static/css/main.9d709412.chunk.css",
+    "main.js": "/headway-landing-page/static/js/main.7fe28b9e.chunk.js",
+    "main.js.map": "/headway-landing-page/static/js/main.7fe28b9e.chunk.js.map",
     "runtime~main.js": "/headway-landing-page/static/js/runtime~main.1eb4709b.js",
     "runtime~main.js.map": "/headway-landing-page/static/js/runtime~main.1eb4709b.js.map",
-    "static/js/2.fdd46cd8.chunk.js": "/headway-landing-page/static/js/2.fdd46cd8.chunk.js",
-    "static/js/2.fdd46cd8.chunk.js.map": "/headway-landing-page/static/js/2.fdd46cd8.chunk.js.map",
+    "static/js/2.c6328cbc.chunk.js": "/headway-landing-page/static/js/2.c6328cbc.chunk.js",
+    "static/js/2.c6328cbc.chunk.js.map": "/headway-landing-page/static/js/2.c6328cbc.chunk.js.map",
     "index.html": "/headway-landing-page/index.html",
-    "precache-manifest.d38d1c9246cd2ca03693ee4ad607e64d.js": "/headway-landing-page/precache-manifest.d38d1c9246cd2ca03693ee4ad607e64d.js",
+    "precache-manifest.0fea4c23f98261bf69100d64b445c64f.js": "/headway-landing-page/precache-manifest.0fea4c23f98261bf69100d64b445c64f.js",
     "service-worker.js": "/headway-landing-page/service-worker.js",
-    "static/css/main.5fff771b.chunk.css.map": "/headway-landing-page/static/css/main.5fff771b.chunk.css.map",
+    "static/css/main.9d709412.chunk.css.map": "/headway-landing-page/static/css/main.9d709412.chunk.css.map",
     "static/media/index.css": "/headway-landing-page/static/media/teachers-background.9a3d53a9.png",
+    "static/media/ModulesList.module.css": "/headway-landing-page/static/media/businessModules-background.2bfd1657.png",
     "static/media/Modal.module.css": "/headway-landing-page/static/media/modal-wallpaper@1X.82393efe.jpeg"
   }
 }

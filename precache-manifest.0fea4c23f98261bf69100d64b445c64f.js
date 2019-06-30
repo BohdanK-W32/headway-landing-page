@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f2bcc27107af4cfdc8e744ef44c02632",
+    "revision": "6743107937a85579ef88d95417acef38",
     "url": "/headway-landing-page/index.html"
   },
   {
-    "revision": "ddd4fe0f4a3403a3b3f9",
-    "url": "/headway-landing-page/static/css/main.5fff771b.chunk.css"
+    "revision": "26d8de99b3635b9ab94f",
+    "url": "/headway-landing-page/static/css/main.9d709412.chunk.css"
   },
   {
-    "revision": "1f017372c82af1d9ae14",
-    "url": "/headway-landing-page/static/js/2.fdd46cd8.chunk.js"
+    "revision": "c1a0131c0a73851c6e39",
+    "url": "/headway-landing-page/static/js/2.c6328cbc.chunk.js"
   },
   {
-    "revision": "ddd4fe0f4a3403a3b3f9",
-    "url": "/headway-landing-page/static/js/main.bf8fddca.chunk.js"
+    "revision": "26d8de99b3635b9ab94f",
+    "url": "/headway-landing-page/static/js/main.7fe28b9e.chunk.js"
   },
   {
     "revision": "eccfe6e79204bf089141",
@@ -162,6 +162,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "87194aebfb6f565b2a700f8e45480c91",
     "url": "/headway-landing-page/static/media/GothamProNarrow-Medium.87194aeb.eot"
+  },
+  {
+    "revision": "2bfd165728d0252c5e99a50476d538a6",
+    "url": "/headway-landing-page/static/media/businessModules-background.2bfd1657.png"
   },
   {
     "revision": "08c1899cc5774de875f2daca4d3a33ed",
