@@ -168,7 +168,7 @@ main {
   padding: 14% 10px 0 10px;
   background: url('./img/personList-background.png') left 21% no-repeat,
     url('./img/personList-background2.png') right 21% no-repeat,
-    url('./img/couple.png') calc(100% + 30px) 65.6% no-repeat,
+    url('./img/couple.png') calc(100% - 10px) 64.8% no-repeat,
     url('./img/teachers-background.png') right 82% no-repeat;
 }
 
@@ -298,11 +298,11 @@ a:hover {
   color: #fff;
 }
 
-@media {
+@media (min-width: 768px) {
   main {
     background: url('./img/personList-background.png') left 18% no-repeat,
       url('./img/personList-background2.png') right 18% no-repeat,
-      url('./img/couple.png') calc(100% + 30px) 69% no-repeat,
+      url('./img/couple.png') calc(100% + 10px) 69% no-repeat,
       url('./img/teachers-background.png') right 76.5% no-repeat;
   }
 }

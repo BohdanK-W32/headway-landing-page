@@ -1,6 +1,8 @@
 .wrapper {
   position: relative;
   margin-bottom: 100px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
 .title {
@@ -25,7 +27,7 @@
 
 .btn {
   position: absolute;
-  top: 39%;
+  top: 45%;
   transform: translate(0, -39%);
   border: none;
   background: transparent;

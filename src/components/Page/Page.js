@@ -20,8 +20,10 @@ const h2Style = {
   textTransform: 'uppercase',
   padding: '12px 6px',
   boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
-  fontSize: 12,
-  fontWeight: 400,
+  fontSize: 14,
+  textAlign: 'center',
+  fontWeight: 500,
+  lineHeight: '1.2',
 };
 
 const h2Style768 = {
@@ -29,13 +31,13 @@ const h2Style768 = {
   padding: '12px 6px',
   boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
   fontSize: 18,
-  fontWeight: 400,
+  fontWeight: 500,
 };
 
 const h1Style = {
-  color: '#EEE',
+  color: '#FAFAFA',
   textTransform: 'uppercase',
-  margin: '8px 0 32px 8px',
+  margin: '8px 0 15vh 8px',
   lineHeight: '1.1',
   fontSize: 13,
 };
@@ -48,27 +50,15 @@ const h1Style768 = {
   fontSize: 18,
 };
 
-const wayStyle = {
-  textTransform: 'uppercase',
-  padding: '12px 6px',
-  fontSize: 13,
-  textAlign: 'center',
-  margin: '0 auto',
-  marginBottom: 30,
-  fontWeight: 400,
-};
-
-const wayStyle768 = {
-  textTransform: 'uppercase',
-  padding: '12px 6px',
-  fontSize: 20,
-  textAlign: 'center',
-  margin: '0 auto',
-  marginBottom: 60,
-  fontWeight: 400,
-};
-
 const flexColumn = {
+  height: '100vh',
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  marginBottom: 20,
+};
+
+const flexColumn2 = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
@@ -80,8 +70,8 @@ const marginBottom50px = { marginBottom: 50 };
 const students = {
   width: '90%',
   height: 'auto',
-  margin: 'auto',
-  marginBottom: 40,
+  margin: '0 auto',
+  marginBottom: '12vh',
 };
 
 const students768 = {
@@ -150,18 +140,20 @@ export default class Page extends Component {
               onClick={this.openModal}
             />
           </section>
-          <section style={flexColumn}>
+          <section style={flexColumn2}>
             <h2 style={width < 768 ? h2Style : h2Style768}>
               присоединяйся к успешным подросткам 21 века
             </h2>
-            <img
-              style={width < 768 ? students : students768}
-              src="./img/students2.png"
-              alt="students"
-            />
+            {width >= 768 && (
+              <img
+                style={width < 1024 ? students768 : students}
+                src="./img/students2.png"
+                alt="students"
+              />
+            )}
           </section>
           <PersonList items={persons} />
-          <h2 style={width < 768 ? wayStyle : wayStyle768}>
+          <h2 style={width < 768 ? h2Style : h2Style768}>
             путь успеха для вашего подростка
           </h2>
           <ModulesList
