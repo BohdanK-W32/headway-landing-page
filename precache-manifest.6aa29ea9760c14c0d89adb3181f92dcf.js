@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f3ce3022368e695c5762b45fcdd14f3",
+    "revision": "2cf710fc93980ae62e718de355ea9782",
     "url": "/headway-landing-page/index.html"
   },
   {
-    "revision": "7bfa78d99d6e2a22f55d",
-    "url": "/headway-landing-page/static/css/main.188e6f80.chunk.css"
+    "revision": "8d98d27af86f91a42a60",
+    "url": "/headway-landing-page/static/css/main.3f10a327.chunk.css"
   },
   {
     "revision": "c1a0131c0a73851c6e39",
     "url": "/headway-landing-page/static/js/2.c6328cbc.chunk.js"
   },
   {
-    "revision": "7bfa78d99d6e2a22f55d",
+    "revision": "8d98d27af86f91a42a60",
     "url": "/headway-landing-page/static/js/main.636b8946.chunk.js"
   },
   {
@@ -172,12 +172,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/headway-landing-page/static/media/couple.08c1899c.png"
   },
   {
-    "revision": "9ba880bc8a6fd4c830b16ccdaa163bbc",
-    "url": "/headway-landing-page/static/media/footer-background.9ba880bc.png"
+    "revision": "1151e2aaac1a713e76dba9e10842f0e4",
+    "url": "/headway-landing-page/static/media/footer-background.1151e2aa.jpg"
   },
   {
-    "revision": "97b8353166176d61c468eaf9a5406c74",
-    "url": "/headway-landing-page/static/media/main-background.97b83531.png"
+    "revision": "f87a12402f290988401a963cbc4bab4a",
+    "url": "/headway-landing-page/static/media/main-background.f87a1240.jpg"
   },
   {
     "revision": "82393efec51e3fab12ccc31e7a7b57e5",
