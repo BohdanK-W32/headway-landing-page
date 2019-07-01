@@ -19,13 +19,15 @@ export default class TeachersSlider extends Component {
 
   sliderRef = React.createRef();
 
+  elemRef = React.createRef();
+
   onClickNext = () => {
-    const width = document.documentElement.clientWidth - 20;
+    const width = document.documentElement.clientWidth - 20.6;
     this.sliderRef.current.scrollLeft += width;
   };
 
   onClickPrev = () => {
-    const width = document.documentElement.clientWidth - 20;
+    const width = document.documentElement.clientWidth - 20.6;
     this.sliderRef.current.scrollLeft -= width;
   };
 
