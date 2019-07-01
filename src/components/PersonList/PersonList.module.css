@@ -12,3 +12,13 @@
     margin-bottom: 80px;
   }
 }
+
+@media (min-width: 1024px) {
+  .personList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 90%;
+    align-items: unset;
+    justify-content: center;
+  }
+}

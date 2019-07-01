@@ -306,3 +306,38 @@ a:hover {
       url('./img/teachers-background.png') right 76.5% no-repeat;
   }
 }
+
+@media (min-width: 1024px) {
+  * {
+    -webkit-overflow-scrolling: auto;
+  }
+
+  #root {
+    overflow-y: auto;
+    -webkit-overflow-scrolling: auto;
+  }
+
+  body {
+    overflow-y: auto;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0.7em;
+  }
+
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.35);
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #f48b1e;
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-color: #e18616;
+  }
+
+  body::-webkit-scrollbar-thumb:active {
+    background-color: #f04423;
+  }
+}

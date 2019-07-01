@@ -29,9 +29,23 @@ const h2Style = {
 const h2Style768 = {
   textTransform: 'uppercase',
   padding: '12px 6px',
+  margin: '0 auto',
   boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
+  textAlign: 'center',
   fontSize: 18,
   fontWeight: 500,
+};
+
+const h2Style1024 = {
+  width: 'min-content',
+  whiteSpace: 'nowrap',
+  textTransform: 'uppercase',
+  padding: '12px 6px',
+  margin: '0 auto',
+  boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
+  textAlign: 'center',
+  fontSize: 34,
+  fontWeight: 400,
 };
 
 const h1Style = {
@@ -48,6 +62,14 @@ const h1Style768 = {
   margin: '8px 0 32px 8px',
   lineHeight: '1.1',
   fontSize: 18,
+};
+
+const h1Style1024 = {
+  color: '#FFF',
+  textTransform: 'uppercase',
+  margin: '8px 0 32px 8px',
+  lineHeight: '1.1',
+  fontSize: 40,
 };
 
 const flexColumn = {
@@ -127,33 +149,63 @@ export default class Page extends Component {
         {isModalOpen && <Modal onClick={this.closeModal} />}
         <main>
           <section style={flexColumn}>
-            <h1 style={width < 768 ? h1Style : h1Style768}>
+            <h1
+              style={
+                // eslint-disable-next-line no-nested-ternary
+                width < 768 ? h1Style : width < 1024 ? h1Style768 : h1Style1024
+              }
+            >
               мы вдохновляем подростков раскрывать свой потенциал
             </h1>
-            <img
-              style={width < 768 ? students : students768}
-              alt="students"
-              src="./img/students@1X.png"
-            />
+            {width < 1024 ? (
+              <img
+                style={width < 768 ? students : students768}
+                alt="students"
+                src="./img/students@1X.png"
+              />
+            ) : (
+              <img
+                style={students768}
+                alt="students"
+                src="./img/studentsLaptop.png"
+              />
+            )}
             <ModalButton
               content="Записаться на пробное занятие"
               onClick={this.openModal}
             />
           </section>
           <section style={flexColumn2}>
-            <h2 style={width < 768 ? h2Style : h2Style768}>
+            <h2
+              style={
+                // eslint-disable-next-line no-nested-ternary
+                width < 768 ? h2Style : width < 1024 ? h2Style768 : h2Style1024
+              }
+            >
               присоединяйся к успешным подросткам 21 века
             </h2>
-            {width >= 768 && (
-              <img
-                style={width < 1024 ? students768 : students}
-                src="./img/students2.png"
-                alt="students"
-              />
-            )}
+            {width >= 768 &&
+              (width < 1024 ? (
+                <img
+                  style={students768}
+                  src="./img/students2.png"
+                  alt="students"
+                />
+              ) : (
+                <img
+                  style={students}
+                  src="./img/students2Laptop.png"
+                  alt="students"
+                />
+              ))}
           </section>
           <PersonList items={persons} />
-          <h2 style={width < 768 ? h2Style : h2Style768}>
+          <h2
+            style={
+              // eslint-disable-next-line no-nested-ternary
+              width < 768 ? h2Style : width < 1024 ? h2Style768 : h2Style1024
+            }
+          >
             путь успеха для вашего подростка
           </h2>
           <ModulesList
