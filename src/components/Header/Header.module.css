@@ -10,7 +10,7 @@
 .logoImg {
   max-width: 20vw;
   width: auto;
-  margin: 8px 0 0 16px;
+  margin: 0.5em 0 0 1em;
 }
 
 @media (min-width: 768px) {
@@ -19,12 +19,31 @@
   }
 
   .logo {
-    max-width: 12%;
+    min-width: 120px;
+    width: 12%;
   }
 
   .logoImg {
-    margin: 8px 0 0 0;
-    max-width: 100%;
-    width: auto;
+    margin: 0.5em 0 0 0;
+    min-width: 120px;
+    max-width: 180px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header {
+    align-items: center;
+    max-height: 90px;
+    height: 9vh;
+    padding: 0 100px;
+  }
+
+  .logo {
+    max-width: 10%;
+  }
+
+  .logoImg {
+    padding: 0.8em;
   }
 }

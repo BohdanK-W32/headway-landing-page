@@ -41,3 +41,11 @@
     max-width: 280px;
   }
 }
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 12px 4px 12px;
+  }
+}

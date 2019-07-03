@@ -6,8 +6,10 @@ import style from './SkillsList.module.css';
 const SkillsList = ({ title, business, english }) => (
   <section className={style.list}>
     <h3 className={style.title}>{title}</h3>
-    <SkillsItem title="бизнес старт" skills={business} />
-    <SkillsItem title="english" skills={english} />
+    <div className={style.div}>
+      <SkillsItem title="бизнес старт" skills={business} />
+      <SkillsItem title="english" skills={english} />
+    </div>
   </section>
 );
 

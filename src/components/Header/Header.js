@@ -33,7 +33,7 @@ const Header = ({ typeOfDevice, children }) => (
         </div>
       </nav>
     ) : (
-      <nav>
+      <nav id="defaultNav">
         <ul id="defaultMenu">
           <a href="#root">
             <li>Про нас</li>

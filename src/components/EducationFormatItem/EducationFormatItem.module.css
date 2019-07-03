@@ -102,3 +102,35 @@
     font-size: 16px;
   }
 }
+
+@media (min-width: 1024px) {
+  .wrapper {
+    min-width: 500px;
+    max-width: 600px;
+    width: 40%;
+    padding: 12px 6px 30px 30px;
+  }
+
+  .title {
+    padding: 14px 40px 10px 18px;
+    font-size: 24px;
+  }
+
+  .icon {
+    margin: 0 20px auto 5px;
+  }
+
+  .container {
+    margin-bottom: 20px;
+  }
+
+  .additionalText {
+    margin-bottom: 70px;
+  }
+
+  .subtext {
+    display: block;
+    margin-top: 0.5em;
+    font-size: 14px;
+  }
+}

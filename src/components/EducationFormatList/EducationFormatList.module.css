@@ -4,3 +4,15 @@
   margin: 10px auto 50px auto;
   text-align: center;
 }
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 34px;
+  }
+
+  .list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}

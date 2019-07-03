@@ -8,22 +8,24 @@ import businessEducation from '../../mock/businessEducation.json';
 const EducationFormatList = ({ title, onClick }) => (
   <section>
     <h3 className={style.title}>{title}</h3>
-    <EducationFormatItem
-      title={businessEducation.title}
-      age={businessEducation.age}
-      calendar={businessEducation.calendar}
-      details={businessEducation.details}
-      additional={businessEducation.additional}
-      onClick={onClick}
-    />
-    <EducationFormatItem
-      title={englishEducation.title}
-      age={englishEducation.age}
-      calendar={englishEducation.calendar}
-      details={englishEducation.details}
-      additional={englishEducation.additional}
-      onClick={onClick}
-    />
+    <div className={style.list}>
+      <EducationFormatItem
+        title={businessEducation.title}
+        age={businessEducation.age}
+        calendar={businessEducation.calendar}
+        details={businessEducation.details}
+        additional={businessEducation.additional}
+        onClick={onClick}
+      />
+      <EducationFormatItem
+        title={englishEducation.title}
+        age={englishEducation.age}
+        calendar={englishEducation.calendar}
+        details={englishEducation.details}
+        additional={englishEducation.additional}
+        onClick={onClick}
+      />
+    </div>
   </section>
 );
 

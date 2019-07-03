@@ -61,3 +61,34 @@
     font-size: 16px;
   }
 }
+
+@media (min-width: 1024px) {
+  .skill {
+    width: 36%;
+    max-height: 500px;
+  }
+
+  .list {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .title {
+    font-size: 30px;
+    padding: 14px 16px 10px 15px;
+  }
+
+  .item {
+    margin: 14px 0 14px 6px;
+  }
+
+  .checkImg {
+    margin: 0 28px 0 0;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+}

@@ -51,7 +51,7 @@ const h2Style1024 = {
 const h1Style = {
   color: '#FAFAFA',
   textTransform: 'uppercase',
-  margin: '8px 0 15vh 8px',
+  margin: '16vw 0 15vh 8px',
   lineHeight: '1.1',
   fontSize: 13,
 };
@@ -59,7 +59,7 @@ const h1Style = {
 const h1Style768 = {
   color: '#FFF',
   textTransform: 'uppercase',
-  margin: '8px 0 32px 8px',
+  margin: '11vw 0 32px 8px',
   lineHeight: '1.1',
   fontSize: 18,
 };
@@ -67,17 +67,18 @@ const h1Style768 = {
 const h1Style1024 = {
   color: '#FFF',
   textTransform: 'uppercase',
-  margin: '8px 0 32px 8px',
+  margin: '9vw 1em 32px 5vw',
   lineHeight: '1.1',
+  fontWeight: '500',
   fontSize: 40,
 };
 
 const flexColumn = {
-  height: '100vh',
+  height: '90vh',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  marginBottom: 20,
+  marginBottom: '11vh',
 };
 
 const flexColumn2 = {

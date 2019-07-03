@@ -49,3 +49,18 @@
       75px no-repeat;
   }
 }
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 30px;
+    padding: 14px 16px 10px 15px;
+  }
+
+  .list1 {
+    max-width: 620px;
+  }
+
+  .list2 {
+    max-width: 350px;
+  }
+}

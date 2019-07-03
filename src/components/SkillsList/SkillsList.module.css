@@ -26,3 +26,22 @@
     width: 100%;
   }
 }
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+
+  .list {
+    max-width: 100%;
+    background: url('../../img/coupleLaptop.png') center 85% no-repeat;
+    background-size: auto 80%;
+  }
+
+  .div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+}

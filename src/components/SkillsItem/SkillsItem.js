@@ -6,7 +6,7 @@ import style from './SkillsItem.module.css';
 const SkillsItem = ({ title, skills }) => (
   <div className={style.skill}>
     <h4 className={style.title}>{title}</h4>
-    <ul>
+    <ul className={style.list}>
       {skills.map(skill =>
         skill.bold ? (
           <li className={style.item} key={uuid()}>
