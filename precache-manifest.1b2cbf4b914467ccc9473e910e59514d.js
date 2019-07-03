@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "99bbd14aecc379d9b662d78c0c548b05",
+    "revision": "197ffb7b24c3e9a8505b482c70e4a4da",
     "url": "/headway-landing-page/index.html"
   },
   {
-    "revision": "6782213808b41eabfee6",
-    "url": "/headway-landing-page/static/css/main.c13538bd.chunk.css"
+    "revision": "82ed4c00689d1312df24",
+    "url": "/headway-landing-page/static/css/main.162308ef.chunk.css"
   },
   {
-    "revision": "c1a0131c0a73851c6e39",
-    "url": "/headway-landing-page/static/js/2.c6328cbc.chunk.js"
+    "revision": "662e706cf84dc2b8e84d",
+    "url": "/headway-landing-page/static/js/2.ea5b2285.chunk.js"
   },
   {
-    "revision": "6782213808b41eabfee6",
-    "url": "/headway-landing-page/static/js/main.8ff2c4cb.chunk.js"
+    "revision": "82ed4c00689d1312df24",
+    "url": "/headway-landing-page/static/js/main.fcea6ea4.chunk.js"
   },
   {
     "revision": "eccfe6e79204bf089141",
@@ -172,8 +172,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/headway-landing-page/static/media/couple.08c1899c.png"
   },
   {
+    "revision": "e700ebb4dbf3f3f855fd7b4e770401ae",
+    "url": "/headway-landing-page/static/media/coupleLaptop.e700ebb4.png"
+  },
+  {
     "revision": "1151e2aaac1a713e76dba9e10842f0e4",
     "url": "/headway-landing-page/static/media/footer-background.1151e2aa.jpg"
+  },
+  {
+    "revision": "673ef33f9c100c635cc30e2cd46b1efb",
+    "url": "/headway-landing-page/static/media/footer.673ef33f.png"
+  },
+  {
+    "revision": "70f2657fdf06382a4288745dd4965b6e",
+    "url": "/headway-landing-page/static/media/header.70f2657f.png"
   },
   {
     "revision": "f87a12402f290988401a963cbc4bab4a",
