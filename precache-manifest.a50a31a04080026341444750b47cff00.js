@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "197ffb7b24c3e9a8505b482c70e4a4da",
+    "revision": "b36ccbb40b92597b4096564f56e04ffd",
     "url": "/headway-landing-page/index.html"
   },
   {
-    "revision": "82ed4c00689d1312df24",
-    "url": "/headway-landing-page/static/css/main.162308ef.chunk.css"
+    "revision": "fe77d1d6926d7ef92a1d",
+    "url": "/headway-landing-page/static/css/main.9d63f0c5.chunk.css"
   },
   {
-    "revision": "662e706cf84dc2b8e84d",
-    "url": "/headway-landing-page/static/js/2.ea5b2285.chunk.js"
+    "revision": "4b1a8bbc812e0843181a",
+    "url": "/headway-landing-page/static/js/2.693306cc.chunk.js"
   },
   {
-    "revision": "82ed4c00689d1312df24",
-    "url": "/headway-landing-page/static/js/main.fcea6ea4.chunk.js"
+    "revision": "fe77d1d6926d7ef92a1d",
+    "url": "/headway-landing-page/static/js/main.097b9b82.chunk.js"
   },
   {
     "revision": "eccfe6e79204bf089141",
@@ -206,5 +206,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9a3d53a9667bd23fd86a26be894e0fb3",
     "url": "/headway-landing-page/static/media/teachers-background.9a3d53a9.png"
+  },
+  {
+    "revision": "2134f7a6d9ecb2c59e512f9ed07e5d22",
+    "url": "/headway-landing-page/static/media/teachers-backgroundLaptop.2134f7a6.png"
   }
 ]);
