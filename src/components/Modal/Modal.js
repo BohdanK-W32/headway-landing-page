@@ -5,13 +5,15 @@ import style from './Modal.module.css';
 import Form from '../Form/Form';
 
 const Modal = ({ onClick }) => (
-  <div className={style.modal}>
-    <h2 className={style.title}>Оформить заявку</h2>
-    <button className={style.btn} type="button" onClick={onClick}>
-      <span className={style.span} />
-      <span className={style.span} />
-    </button>
-    <Form />
+  <div className={style.wrapper}>
+    <div className={style.modal}>
+      <h2 className={style.title}>Оформить заявку</h2>
+      <button className={style.btn} type="button" onClick={onClick}>
+        <span className={style.span} />
+        <span className={style.span} />
+      </button>
+      <Form />
+    </div>
   </div>
 );
 

@@ -29,6 +29,10 @@
     max-width: 180px;
     width: 100%;
   }
+
+  .subMenu {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -37,6 +41,7 @@
     max-height: 90px;
     height: 9vh;
     padding: 0 100px;
+    background-color: rgba(0, 0, 0, 0.3);
   }
 
   .logo {
@@ -45,5 +50,60 @@
 
   .logoImg {
     padding: 0.8em;
+  }
+
+  .subMenu {
+    width: 225px;
+    padding: 1em;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 100%;
+    position: absolute;
+    list-style: none;
+    background-color: #fff;
+    border-radius: 0px 10px 10px 10px;
+    transition: all 0.3s ease;
+  }
+
+  .menuItem {
+    position: relative;
+    padding: 18px 15px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+  }
+
+  .menuItem:hover {
+    background-color: #fff;
+  }
+
+  .menuItem > a {
+    color: #fff;
+  }
+
+  .menuItem:hover > a {
+    color: #f07c00;
+  }
+
+  .menuItem:hover > .subMenu {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .submenuItem {
+    margin: 2px 0;
+    padding: 0.5em;
+  }
+
+  .submenuItem > a {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0.5em;
+  }
+
+  .submenuItem:hover > a {
+    color: #f07c00;
   }
 }

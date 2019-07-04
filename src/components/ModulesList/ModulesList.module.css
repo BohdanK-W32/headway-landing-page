@@ -57,10 +57,15 @@
   }
 
   .list1 {
-    max-width: 620px;
+    max-width: 730px;
+    background: url('../../img/businessModules-background.png') center 100px
+      no-repeat;
+    padding-bottom: 40px;
   }
 
   .list2 {
-    max-width: 350px;
+    max-width: 380px;
+    background: url('../../img/englishModules-background.png') calc(50% + 17px)
+      100px no-repeat;
   }
 }

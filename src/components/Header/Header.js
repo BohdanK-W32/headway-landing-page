@@ -35,15 +35,27 @@ const Header = ({ typeOfDevice, children }) => (
     ) : (
       <nav id="defaultNav">
         <ul id="defaultMenu">
-          <a href="#root">
-            <li>Про нас</li>
-          </a>
-          <a href="#courses">
-            <li>Курсы</li>
-          </a>
-          <a href="#footer">
-            <li>Контакты</li>
-          </a>
+          <li className={styles.menuItem}>
+            <a href="#root">Про нас</a>
+          </li>
+
+          <li id="hoverable" className={styles.menuItem}>
+            <a href="#educationFormat">Курсы</a>
+            <ul className={styles.subMenu}>
+              <li className={styles.submenuItem}>
+                <a href="#business">Бизнес Старт</a>
+              </li>
+
+              <li className={styles.submenuItem}>
+                <a href="#english">English</a>
+              </li>
+            </ul>
+          </li>
+
+          <li className={styles.menuItem}>
+            <a href="#footer">Контакты</a>
+          </li>
+
           {children}
         </ul>
       </nav>

@@ -6,7 +6,7 @@ import englishEducation from '../../mock/englishEducation.json';
 import businessEducation from '../../mock/businessEducation.json';
 
 const EducationFormatList = ({ title, onClick }) => (
-  <section>
+  <section id="educationFormat">
     <h3 className={style.title}>{title}</h3>
     <div className={style.list}>
       <EducationFormatItem

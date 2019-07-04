@@ -19,6 +19,7 @@ import Footer from '../Footer/Footer';
 const h2Style = {
   textTransform: 'uppercase',
   padding: '12px 6px',
+  backgroundColor: '#FFF',
   boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
   fontSize: 14,
   textAlign: 'center',
@@ -30,6 +31,7 @@ const h2Style768 = {
   textTransform: 'uppercase',
   padding: '12px 6px',
   margin: '0 auto',
+  backgroundColor: '#FFF',
   boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
   textAlign: 'center',
   fontSize: 18,
@@ -42,6 +44,7 @@ const h2Style1024 = {
   textTransform: 'uppercase',
   padding: '12px 6px',
   margin: '0 auto',
+  backgroundColor: '#FFF',
   boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
   textAlign: 'center',
   fontSize: 34,
@@ -67,18 +70,18 @@ const h1Style768 = {
 const h1Style1024 = {
   color: '#FFF',
   textTransform: 'uppercase',
-  margin: '9vw 1em 32px 5vw',
+  margin: '6vw 1em 1em 5vw',
   lineHeight: '1.1',
   fontWeight: '500',
   fontSize: 40,
 };
 
 const flexColumn = {
-  height: '90vh',
+  height: '94vh',
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  marginBottom: '11vh',
+  marginBottom: '20vh',
 };
 
 const flexColumn2 = {
@@ -102,6 +105,13 @@ const students768 = {
   height: 'auto',
   margin: 'auto',
   marginBottom: 35,
+};
+
+const students1024 = {
+  width: '50%',
+  height: 'auto',
+  margin: 'auto',
+  marginBottom: 25,
 };
 
 export default class Page extends Component {
@@ -166,7 +176,7 @@ export default class Page extends Component {
               />
             ) : (
               <img
-                style={students768}
+                style={students1024}
                 alt="students"
                 src="./img/studentsLaptop.png"
               />
@@ -194,7 +204,7 @@ export default class Page extends Component {
                 />
               ) : (
                 <img
-                  style={students}
+                  style={students1024}
                   src="./img/students2Laptop.png"
                   alt="students"
                 />

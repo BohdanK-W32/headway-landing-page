@@ -291,7 +291,6 @@ a:hover {
 }
 
 #defaultMenu li {
-  padding: 8px;
   font-size: 15px;
   font-weight: 600;
   color: #fff;
@@ -370,8 +369,8 @@ a:hover {
   }
 
   main {
-    background: url('./img/personList-background.png') left 18% no-repeat,
-      url('./img/personList-background2.png') right 18% no-repeat,
-      url('./img/teachers-background.png') right 76.5% no-repeat;
+    background: url('./img/personList-background.png') left 25% no-repeat,
+      url('./img/personList-background2.png') right 25% no-repeat,
+      url('./img/teachers-backgroundLaptop.png') right 88.8% no-repeat;
   }
 }

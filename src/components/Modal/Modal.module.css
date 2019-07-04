@@ -1,3 +1,7 @@
+.wrapper {
+  display: block;
+}
+
 .modal {
   display: flex;
   flex-direction: column;
@@ -6,7 +10,9 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform-origin: 50%, 50%, 0;
+  transform: translate(-50%, -50%) translateZ(0);
+  backface-visibility: hidden;
   width: 100vw;
   height: 100vh;
   background: url('../../img/modal-wallpaper@1X.jpeg') center top no-repeat;
@@ -15,6 +21,7 @@
   margin: auto;
   padding: 18px;
   z-index: 10;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .title {
@@ -43,4 +50,24 @@
 
 .span:nth-child(2) {
   transform: rotate(-45deg);
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 100;
+  }
+
+  .modal {
+    width: 29%;
+    height: 63%;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+  }
 }

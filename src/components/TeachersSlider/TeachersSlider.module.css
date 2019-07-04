@@ -107,3 +107,25 @@
     right: 15%;
   }
 }
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 34px;
+  }
+
+  .teacher {
+    min-width: 33.333%;
+  }
+
+  .btn {
+    top: 42%;
+  }
+
+  .leftBtn {
+    left: 5%;
+  }
+
+  .rightBtn {
+    right: 5%;
+  }
+}
