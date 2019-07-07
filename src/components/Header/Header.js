@@ -22,7 +22,7 @@ const Header = ({ typeOfDevice, children }) => (
             <a href="#root">
               <li>Про нас</li>
             </a>
-            <a href="#courses">
+            <a href="#educationFormat">
               <li>Курсы</li>
             </a>
             <a href="#footer">

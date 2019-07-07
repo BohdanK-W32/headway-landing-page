@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+// import { GooLoader } from 'react-spinners-kit';
 import persons from '../../mock/persons.json';
 import businessModules from '../../mock/businessModules.json';
 import englishModules from '../../mock/englishModules.json';
@@ -25,6 +26,7 @@ const h2Style = {
   textAlign: 'center',
   fontWeight: 500,
   lineHeight: '1.2',
+  marginBottom: 30,
 };
 
 const h2Style768 = {
@@ -81,7 +83,7 @@ const flexColumn = {
   display: 'flex',
   flexDirection: 'column',
   alignItems: 'center',
-  marginBottom: '20vh',
+  marginBottom: '10vh',
 };
 
 const flexColumn2 = {
@@ -116,6 +118,7 @@ const students1024 = {
 
 export default class Page extends Component {
   state = {
+    // isLoading: true,
     isModalOpen: false,
     width: 0,
   };
@@ -151,6 +154,7 @@ export default class Page extends Component {
 
     return (
       <>
+        {/* <GooLoader size={30} color="#686769" loading={isLoading} /> */}
         <Header typeOfDevice={width}>
           <ModalButton
             content="Записаться на пробное занятие"
