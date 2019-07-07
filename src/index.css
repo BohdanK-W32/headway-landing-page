@@ -166,10 +166,10 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0 10px 0 10px;
-  background: url('./img/personList-background.png') left 21% no-repeat,
-    url('./img/personList-background2.png') right 21% no-repeat,
-    url('./img/couple.png') calc(100% - 10px) 64.8% no-repeat,
-    url('./img/teachers-background.png') right 82% no-repeat;
+  background: url('./img/personList-background.png') left 14% no-repeat,
+    url('./img/personList-background2.png') right 14% no-repeat,
+    url('./img/couple.png') calc(100% - 10px) 61% no-repeat,
+    url('./img/teachers-background.png') right 80% no-repeat;
 }
 
 a {

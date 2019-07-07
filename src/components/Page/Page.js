@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import { GooLoader } from 'react-spinners-kit';
 import persons from '../../mock/persons.json';
 import businessModules from '../../mock/businessModules.json';
 import englishModules from '../../mock/englishModules.json';
@@ -7,6 +6,7 @@ import businessSkills from '../../mock/businessSkills.json';
 import englishSkills from '../../mock/englishSkills.json';
 import teachers from '../../mock/teachers.json';
 
+import Loader from '../Loader/Loader';
 import Header from '../Header/Header';
 import Modal from '../Modal/Modal';
 import ModalButton from '../ModalButton/ModalButton';
@@ -118,7 +118,7 @@ const students1024 = {
 
 export default class Page extends Component {
   state = {
-    // isLoading: true,
+    isLoading: true,
     isModalOpen: false,
     width: 0,
   };
@@ -126,6 +126,9 @@ export default class Page extends Component {
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
+    window.addEventListener('load', () => {
+      this.setState({ isLoading: false });
+    });
   }
 
   componentWillUnmount() {
@@ -150,11 +153,11 @@ export default class Page extends Component {
   };
 
   render() {
-    const { isModalOpen, width } = this.state;
+    const { isLoading, isModalOpen, width } = this.state;
 
     return (
       <>
-        {/* <GooLoader size={30} color="#686769" loading={isLoading} /> */}
+        {isLoading && <Loader />}
         <Header typeOfDevice={width}>
           <ModalButton
             content="Записаться на пробное занятие"
