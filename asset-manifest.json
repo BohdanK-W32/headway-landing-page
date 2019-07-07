@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/headway-landing-page/static/css/main.cec88d55.chunk.css",
+    "main.css": "/headway-landing-page/static/css/main.c9995b7f.chunk.css",
     "main.js": "/headway-landing-page/static/js/main.14305bca.chunk.js",
     "main.js.map": "/headway-landing-page/static/js/main.14305bca.chunk.js.map",
     "runtime~main.js": "/headway-landing-page/static/js/runtime~main.1eb4709b.js",
@@ -8,9 +8,9 @@
     "static/js/2.d128b703.chunk.js": "/headway-landing-page/static/js/2.d128b703.chunk.js",
     "static/js/2.d128b703.chunk.js.map": "/headway-landing-page/static/js/2.d128b703.chunk.js.map",
     "index.html": "/headway-landing-page/index.html",
-    "precache-manifest.f4432a8ccc5f6c2d426b4b50b55299a1.js": "/headway-landing-page/precache-manifest.f4432a8ccc5f6c2d426b4b50b55299a1.js",
+    "precache-manifest.40e30962e0174859078f04a1de0dddf3.js": "/headway-landing-page/precache-manifest.40e30962e0174859078f04a1de0dddf3.js",
     "service-worker.js": "/headway-landing-page/service-worker.js",
-    "static/css/main.cec88d55.chunk.css.map": "/headway-landing-page/static/css/main.cec88d55.chunk.css.map",
+    "static/css/main.c9995b7f.chunk.css.map": "/headway-landing-page/static/css/main.c9995b7f.chunk.css.map",
     "static/media/index.css": "/headway-landing-page/static/media/teachers-backgroundLaptop.2134f7a6.png",
     "static/media/ModulesList.module.css": "/headway-landing-page/static/media/businessModules-background.2bfd1657.png",
     "static/media/SkillsList.module.css": "/headway-landing-page/static/media/coupleLaptop.e700ebb4.png",
