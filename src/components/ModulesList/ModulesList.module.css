@@ -64,6 +64,7 @@
   }
 
   .list2 {
+    height: 1000px;
     max-width: 380px;
     background: url('../../img/englishModules-background.png') calc(50% + 17px)
       100px no-repeat;
