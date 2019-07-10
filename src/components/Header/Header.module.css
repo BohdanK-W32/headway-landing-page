@@ -105,6 +105,7 @@
   }
 
   .submenuItem > a {
+    color: #000;
     font-size: 18px;
     font-weight: 400;
     padding: 0.5em;

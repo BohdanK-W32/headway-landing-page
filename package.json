@@ -13,7 +13,9 @@
   "homepage": "https://bohdank911.github.io/headway-landing-page",
   "private": true,
   "dependencies": {
+    "axios": "^0.19.0",
     "gh-pages": "^2.0.1",
+    "json-server": "^0.15.0",
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
