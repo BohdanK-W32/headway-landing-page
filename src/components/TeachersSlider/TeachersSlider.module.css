@@ -6,10 +6,16 @@
 }
 
 .title {
+  width: min-content;
+  white-space: nowrap;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 400;
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 6px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.2);
   margin-bottom: 20px;
 }
 
@@ -110,6 +116,7 @@
 
 @media (min-width: 1024px) {
   .title {
+    font-weight: 400;
     font-size: 34px;
   }
 

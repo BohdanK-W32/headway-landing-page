@@ -27,6 +27,7 @@
 .title {
   font-size: 18px;
   font-weight: 400;
+  text-align: center;
 }
 
 .btn {
@@ -36,8 +37,8 @@
 
 .span {
   position: absolute;
-  top: 40px;
-  right: 25px;
+  top: 55px;
+  right: 40px;
   width: 20px;
   height: 4px;
   border-radius: 5px;

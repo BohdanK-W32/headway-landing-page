@@ -20,10 +20,10 @@ import Footer from '../Footer/Footer';
 const h2Style = {
   textTransform: 'uppercase',
   padding: '12px 6px',
+  textAlign: 'center',
   backgroundColor: '#FFF',
   boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
   fontSize: 14,
-  textAlign: 'center',
   fontWeight: 500,
   lineHeight: '1.2',
   marginBottom: 30,
@@ -58,6 +58,7 @@ const h1Style = {
   textTransform: 'uppercase',
   margin: '16vw 0 15vh 8px',
   lineHeight: '1.1',
+  textAlign: 'center',
   fontSize: 13,
 };
 
@@ -66,6 +67,7 @@ const h1Style768 = {
   textTransform: 'uppercase',
   margin: '11vw 0 32px 8px',
   lineHeight: '1.1',
+  textAlign: 'center',
   fontSize: 18,
 };
 
@@ -75,6 +77,7 @@ const h1Style1024 = {
   margin: '6vw 1em 1em 5vw',
   lineHeight: '1.1',
   fontWeight: '500',
+  textAlign: 'center',
   fontSize: 40,
 };
 
@@ -121,6 +124,8 @@ export default class Page extends Component {
     isLoading: true,
     isModalOpen: false,
     width: 0,
+    error: false,
+    ok: false,
   };
 
   componentDidMount() {
@@ -152,8 +157,12 @@ export default class Page extends Component {
     this.setState({ width: window.innerWidth });
   };
 
+  changeError = () => this.setState({ error: true });
+
+  changeOk = () => this.setState({ ok: true });
+
   render() {
-    const { isLoading, isModalOpen, width } = this.state;
+    const { isLoading, isModalOpen, width, error, ok } = this.state;
 
     return (
       <>
@@ -164,7 +173,15 @@ export default class Page extends Component {
             onClick={this.openModal}
           />
         </Header>
-        {isModalOpen && <Modal onClick={this.closeModal} />}
+        {isModalOpen && (
+          <Modal
+            ok={ok}
+            error={error}
+            changeOk={this.changeOk}
+            changeError={this.changeError}
+            onClick={this.closeModal}
+          />
+        )}
         <main>
           <section style={flexColumn}>
             <h1
@@ -173,7 +190,8 @@ export default class Page extends Component {
                 width < 768 ? h1Style : width < 1024 ? h1Style768 : h1Style1024
               }
             >
-              мы вдохновляем подростков раскрывать свой потенциал
+              мы вдохновляем подростков раскрывать <br />
+              свой потенциал
             </h1>
             {width < 1024 ? (
               <img
