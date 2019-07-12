@@ -33,14 +33,24 @@ const Footer = () => (
       <p className={style.text}>Политика конфиденциальности</p>
     </div>
     <div className={style.iconsWrapper}>
-      <a href="https://instagram.com/headway_uaa" className={style.iconLink}>
+      <a
+        href="https://instagram.com/headway_uaa"
+        target="_balnk"
+        rel="noreferrer noopener"
+        className={style.iconLink}
+      >
         <img
           className={style.icon}
           src="./img/instagram.svg"
           alt="instagram icon"
         />
       </a>
-      <a href="https://facebook.com/HeadWayy/" className={style.iconLink}>
+      <a
+        href="https://facebook.com/HeadWayy/"
+        target="_balnk"
+        rel="noreferrer noopener"
+        className={style.iconLink}
+      >
         <img
           className={style.icon}
           src="./img/facebook.svg"
