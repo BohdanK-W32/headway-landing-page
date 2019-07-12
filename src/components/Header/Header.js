@@ -47,7 +47,7 @@ const Header = ({ typeOfDevice, children }) => (
               </li>
 
               <li className={styles.submenuItem}>
-                <a href="#english">English</a>
+                <a href="#educationFormat">English</a>
               </li>
             </ul>
           </li>

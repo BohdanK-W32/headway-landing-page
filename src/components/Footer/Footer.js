@@ -33,16 +33,20 @@ const Footer = () => (
       <p className={style.text}>Политика конфиденциальности</p>
     </div>
     <div className={style.iconsWrapper}>
-      <img
-        className={style.icon}
-        src="./img/instagram.svg"
-        alt="instagram icon"
-      />
-      <img
-        className={style.icon}
-        src="./img/facebook.svg"
-        alt="facebook icon"
-      />
+      <a href="https://instagram.com/headway_uaa" className={style.iconLink}>
+        <img
+          className={style.icon}
+          src="./img/instagram.svg"
+          alt="instagram icon"
+        />
+      </a>
+      <a href="https://facebook.com/HeadWayy/" className={style.iconLink}>
+        <img
+          className={style.icon}
+          src="./img/facebook.svg"
+          alt="facebook icon"
+        />
+      </a>
     </div>
   </footer>
 );
