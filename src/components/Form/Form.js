@@ -39,7 +39,10 @@ export default class Form extends Component {
     const { changeError, changeOk } = this.props;
 
     axios
-      .post('https://headway-json.herokuapp.com/registeredUsers', dataObj)
+      .post(
+        'https://headway-json.herokuapp.com/registeredUsers_308b1b02d690',
+        dataObj,
+      )
       .then(response => {
         if (response.status === 200 || response.status === 201) {
           changeOk();
