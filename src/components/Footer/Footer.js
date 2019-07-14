@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import style from './Footer.module.css';
 
-const Footer = () => (
+const Footer = ({ onOpenPolicy, onOpenMailing }) => (
   <footer id="footer" className={style.footer}>
     <section className={style.address}>
       <p>Адрес</p>
@@ -29,8 +30,12 @@ const Footer = () => (
       </div>
     </section>
     <div className={style.other}>
-      <p className={style.text}>Согласие с рассылкой</p>
-      <p className={style.text}>Политика конфиденциальности</p>
+      <button type="button" onClick={onOpenMailing} className={style.text}>
+        Согласие с рассылкой
+      </button>
+      <button type="button" onClick={onOpenPolicy} className={style.text}>
+        Политика конфиденциальности
+      </button>
     </div>
     <div className={style.iconsWrapper}>
       <a
@@ -60,5 +65,10 @@ const Footer = () => (
     </div>
   </footer>
 );
+
+Footer.propTypes = {
+  onOpenPolicy: PropTypes.func.isRequired,
+  onOpenMailing: PropTypes.func.isRequired,
+};
 
 export default Footer;

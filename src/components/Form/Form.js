@@ -26,11 +26,24 @@ export default class Form extends Component {
 
   handleSubmit = evt => {
     evt.preventDefault();
+
     const date = new Date();
+    const email = /^([0-9a-zA-Z]([-.\w]*[0-9a-zA-Z])*@([0-9a-zA-Z][-\w]*[0-9a-zA-Z]\.)+[a-zA-Z]{2,9})$/;
+    const phone = /^([+]?\d{1,4}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$/;
 
     this.setState({ date: date.toLocaleString('uk-UA') }, () => {
-      this.post(this.state);
-      this.reset();
+      if (email.test(this.state.email)) {
+        if (phone.test(this.state.phone)) {
+          this.post(this.state);
+          this.reset();
+        } else {
+          // eslint-disable-next-line no-alert
+          alert('Неверный телефон. \nПопробуйте ещё раз!');
+        }
+      } else {
+        // eslint-disable-next-line no-alert
+        alert('Неверный email. \nПопробуйте ещё раз!');
+      }
     });
   };
 

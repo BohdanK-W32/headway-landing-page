@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import style from './Modal.module.css';
-// import ModalButton from '../ModalButton/ModalButton';
 import Form from '../Form/Form';
 
 const Modal = ({ ok, error, changeError, changeOk, onClick }) => (
