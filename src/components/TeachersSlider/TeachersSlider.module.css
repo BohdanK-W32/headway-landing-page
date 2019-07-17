@@ -120,19 +120,23 @@
     font-size: 34px;
   }
 
+  .photo {
+    width: 55%;
+  }
+
   .teacher {
     min-width: 33.333%;
   }
 
   .btn {
-    top: 42%;
+    top: 47%;
   }
 
   .leftBtn {
-    left: 5%;
+    left: 4%;
   }
 
   .rightBtn {
-    right: 5%;
+    right: 4%;
   }
 }

@@ -1,77 +1,22 @@
 [
   {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Альбус Дамблдор",
-    "subtitle": "CEO"
+    "imgSrc": "./img/orlov.jpg",
+    "name": "Данил Орлов",
+    "subtitle": "Тренер Social Media Marketing"
   },
   {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Северус Снейп",
-    "subtitle": "Преподаватель зельеварения"
+    "imgSrc": "./img/huzovata.jpg",
+    "name": "Анна Гузоватая",
+    "subtitle": "Тренер по командной работе"
   },
   {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Сириус Блэк",
-    "subtitle": "Преподаватель магии"
+    "imgSrc": "./img/prykhodko.jpg",
+    "name": "Юлия Приходько",
+    "subtitle": "Тренер по мотивации и целеполагание"
   },
   {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Минерва Макгонагалл",
-    "subtitle": "Профессор"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Лорд Волан-де-Морт",
-    "subtitle": "Авада кедавра"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Альбус Дамблдор",
-    "subtitle": "CEO"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Северус Снейп",
-    "subtitle": "Преподаватель зельеварения"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Сириус Блэк",
-    "subtitle": "Преподаватель магии"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Минерва Макгонагалл",
-    "subtitle": "Профессор"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Лорд Волан-де-Морт",
-    "subtitle": "Авада кедавра"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Альбус Дамблдор",
-    "subtitle": "CEO"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Северус Снейп",
-    "subtitle": "Преподаватель зельеварения"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Сириус Блэк",
-    "subtitle": "Преподаватель магии"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Минерва Макгонагалл",
-    "subtitle": "Профессор"
-  },
-  {
-    "imgSrc": "./img/circle.jpg",
-    "name": "Лорд Волан-де-Морт",
-    "subtitle": "Авада кедавра"
+    "imgSrc": "./img/domanova.jpg",
+    "name": "Инна Доманова",
+    "subtitle": "English tutor"
   }
 ]

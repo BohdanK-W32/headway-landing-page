@@ -398,13 +398,14 @@ a:hover {
     -moz-osx-font-smoothing: grayscale;
     background: url('./img/header.png') top center no-repeat,
       url('./img/footer.png') bottom center no-repeat;
-    /* url(./img/footer-bg.png) left 55% no-repeat; */
     background-size: 100vw auto;
   }
 
   main {
     background: url('./img/personList-background.png') left 25% no-repeat,
       url('./img/personList-background2.png') right 25% no-repeat,
+      url('./img/girlAndBoy1.png') 6% 47% no-repeat,
+      url('./img/girlAndBoy2.png') 97% 53.5% no-repeat,
       url('./img/left-background.png') left 53% no-repeat,
       url('./img/right-background.png') right 53% no-repeat,
       url('./img/teachers-backgroundLaptop.png') right 87% no-repeat;
