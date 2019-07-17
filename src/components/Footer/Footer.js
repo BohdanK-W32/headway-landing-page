@@ -15,17 +15,17 @@ const Footer = ({ onOpenPolicy, onOpenMailing }) => (
       <div className={style.contacts}>
         <a
           className={style.plainText}
-          href="mailto:headway@gmail.com"
+          href="mailto:headway.contacts@gmail.com"
           target="_balnk"
           rel="noreferrer noopener"
         >
-          headway@gmail.com
+          headway.contacts@gmail.com
         </a>
-        <a className={style.plainText} href="tel:+380445996123">
-          +38(044)599-61-23
+        <a className={style.plainText} href="tel:+380965752378">
+          +38(096)575-23-78
         </a>
-        <a className={style.plainText} href="tel:+380937904417">
-          +38(093)790-44-17
+        <a className={style.plainText} href="tel:+380990196574">
+          +38(099)019-65-74
         </a>
       </div>
     </section>
