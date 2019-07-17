@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/headway-landing-page/static/css/main.f9c07944.chunk.css",
+    "main.css": "/headway-landing-page/static/css/main.25988c0e.chunk.css",
     "main.js": "/headway-landing-page/static/js/main.19ce8ec5.chunk.js",
     "main.js.map": "/headway-landing-page/static/js/main.19ce8ec5.chunk.js.map",
     "runtime~main.js": "/headway-landing-page/static/js/runtime~main.1eb4709b.js",
@@ -8,11 +8,10 @@
     "static/js/2.dd52f184.chunk.js": "/headway-landing-page/static/js/2.dd52f184.chunk.js",
     "static/js/2.dd52f184.chunk.js.map": "/headway-landing-page/static/js/2.dd52f184.chunk.js.map",
     "index.html": "/headway-landing-page/index.html",
-    "precache-manifest.64c1d9f549727e18df706978b792ee4c.js": "/headway-landing-page/precache-manifest.64c1d9f549727e18df706978b792ee4c.js",
+    "precache-manifest.2d6c98b551a24a11dee794b4e8896f92.js": "/headway-landing-page/precache-manifest.2d6c98b551a24a11dee794b4e8896f92.js",
     "service-worker.js": "/headway-landing-page/service-worker.js",
-    "static/css/main.f9c07944.chunk.css.map": "/headway-landing-page/static/css/main.f9c07944.chunk.css.map",
+    "static/css/main.25988c0e.chunk.css.map": "/headway-landing-page/static/css/main.25988c0e.chunk.css.map",
     "static/media/index.css": "/headway-landing-page/static/media/teachers-backgroundLaptop.2134f7a6.png",
-    "static/media/ModulesList.module.css": "/headway-landing-page/static/media/businessModules-background.2bfd1657.png",
     "static/media/SkillsList.module.css": "/headway-landing-page/static/media/coupleLaptop.e700ebb4.png",
     "static/media/Modal.module.css": "/headway-landing-page/static/media/modal-wallpaper@1X.82393efe.jpeg"
   }
