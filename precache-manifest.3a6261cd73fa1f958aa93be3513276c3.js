@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f18d4baca42f0fe0329ea03ecd79fe27",
+    "revision": "bddc86f6c41a667469f15cfabb6f101e",
     "url": "/headway-landing-page/index.html"
   },
   {
-    "revision": "0ad65fc2faf451ba191d",
-    "url": "/headway-landing-page/static/css/main.25988c0e.chunk.css"
+    "revision": "0a9148dcc10149afbb32",
+    "url": "/headway-landing-page/static/css/main.386758a2.chunk.css"
   },
   {
     "revision": "7fecbcdb72ac14f5a1c8",
     "url": "/headway-landing-page/static/js/2.dd52f184.chunk.js"
   },
   {
-    "revision": "0ad65fc2faf451ba191d",
-    "url": "/headway-landing-page/static/js/main.19ce8ec5.chunk.js"
+    "revision": "0a9148dcc10149afbb32",
+    "url": "/headway-landing-page/static/js/main.ae0a24bd.chunk.js"
   },
   {
     "revision": "eccfe6e79204bf089141",
@@ -178,6 +178,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "673ef33f9c100c635cc30e2cd46b1efb",
     "url": "/headway-landing-page/static/media/footer.673ef33f.png"
+  },
+  {
+    "revision": "6a4cec778b567f7760ec9b690dc68db7",
+    "url": "/headway-landing-page/static/media/girlAndBoy1.6a4cec77.png"
+  },
+  {
+    "revision": "cb5866aa49272671fe778d58d3674e44",
+    "url": "/headway-landing-page/static/media/girlAndBoy2.cb5866aa.png"
   },
   {
     "revision": "70f2657fdf06382a4288745dd4965b6e",
