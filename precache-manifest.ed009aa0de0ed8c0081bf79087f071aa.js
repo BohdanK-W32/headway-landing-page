@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bddc86f6c41a667469f15cfabb6f101e",
+    "revision": "0534e9ca9730b5198aba131aeb65ca54",
     "url": "/headway-landing-page/index.html"
   },
   {
-    "revision": "0a9148dcc10149afbb32",
+    "revision": "4e749e16e446e63143d6",
     "url": "/headway-landing-page/static/css/main.386758a2.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/headway-landing-page/static/js/2.dd52f184.chunk.js"
   },
   {
-    "revision": "0a9148dcc10149afbb32",
-    "url": "/headway-landing-page/static/js/main.ae0a24bd.chunk.js"
+    "revision": "4e749e16e446e63143d6",
+    "url": "/headway-landing-page/static/js/main.22d2c482.chunk.js"
   },
   {
     "revision": "eccfe6e79204bf089141",
