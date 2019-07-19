@@ -6,9 +6,8 @@ const Footer = ({ onOpenPolicy, onOpenMailing }) => (
   <footer id="footer" className={style.footer}>
     <section className={style.address}>
       <p>Адрес</p>
-      <p>г. Киев,</p>
-      <p>ул. Васильковская, 7</p>
-      <p>4 этаж, 1 офис</p>
+      <p>г. Киев, ст. м. Театральная</p>
+      <p>ул. Пушкинская, 9Б</p>
     </section>
     <section className={style.contacts}>
       <h5 className={style.contact}>contact</h5>
