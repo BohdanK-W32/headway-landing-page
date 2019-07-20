@@ -28,6 +28,8 @@
 
 .list2 {
   composes: list;
+  background: url('../../img/coupleLaptop.png') right bottom no-repeat;
+  background-size: contain;
 }
 
 @media (min-width: 768px) {
@@ -44,9 +46,10 @@
   }
 
   .list2 {
-    max-width: 320px;
+    display: none;
+    /* max-width: 320px;
     background: url('../../img/englishModules-background.png') calc(50% + 17px)
-      75px no-repeat;
+      75px no-repeat; */
   }
 }
 
@@ -63,10 +66,9 @@
     padding-bottom: 40px;
   }
 
-  .list2 {
+  /* .list2 {
     height: 1000px;
     max-width: 380px;
-    background: url('../../img/englishModules-background.png') calc(50% + 17px)
-      100px no-repeat;
-  }
+    background: url('../../img/englishModules-background.png') calc(50% + 17px) 100px no-repeat;
+  } */
 }

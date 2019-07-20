@@ -19,8 +19,8 @@ const Header = ({ typeOfDevice, children }) => (
           <span></span>
           <span></span>
           <ul id="menu">
-            <a href="#root">
-              <li>Про нас</li>
+            <a href="#teachers">
+              <li>Преподаватели</li>
             </a>
             <a href="#educationFormat">
               <li>Курсы</li>
@@ -36,7 +36,7 @@ const Header = ({ typeOfDevice, children }) => (
       <nav id="defaultNav">
         <ul id="defaultMenu">
           <li className={styles.menuItem}>
-            <a href="#root">Про нас</a>
+            <a href="#teachers">Преподаватели</a>
           </li>
 
           <li id="hoverable" className={styles.menuItem}>

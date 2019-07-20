@@ -35,7 +35,7 @@ export default class TeachersSlider extends Component {
     const { teachers, title } = this.props;
 
     return (
-      <section className={style.wrapper}>
+      <section id="teachers" className={style.wrapper}>
         <h3 className={style.title}>{title}</h3>
         <div ref={this.sliderRef} className={style.teachersWrapper}>
           {teachers.map(teacher => (
