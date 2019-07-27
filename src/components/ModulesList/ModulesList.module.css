@@ -60,10 +60,10 @@
   }
 
   .list1 {
-    max-width: 730px;
-    background: url('../../img/businessModules-background.png') center 100px
+    max-width: 900px;
+    background: url('../../img/businessModules-background.png') center 120px
       no-repeat;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
   }
 
   /* .list2 {

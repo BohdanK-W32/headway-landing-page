@@ -44,7 +44,7 @@
 
 @media (min-width: 1024px) {
   .module {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
   }
 
   .title {
@@ -55,7 +55,7 @@
 
   .steps {
     font-size: 16px;
-    max-width: 340px;
+    max-width: 430px;
   }
 
   .step {
