@@ -166,9 +166,9 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0 10px 0 10px;
-  background: url('./img/personList-background.png') left 14% no-repeat,
-    url('./img/personList-background2.png') right 14% no-repeat,
-    url('./img/teachers-background.png') right 79% no-repeat;
+  background: url('./img/personList-background.png') left 86% no-repeat,
+    url('./img/personList-background2.png') right 86% no-repeat,
+    url('./img/teachers-background.png') right 99% no-repeat;
 }
 
 a {
@@ -233,20 +233,20 @@ a:hover {
   transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked ~ span {
+#menuToggle input:checked~span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
   will-change: transform;
 }
 
-#menuToggle input:checked ~ span:nth-last-child(3) {
+#menuToggle input:checked~span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
   will-change: transform;
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2) {
+#menuToggle input:checked~span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
   will-change: transform;
 }
@@ -272,7 +272,7 @@ a:hover {
   z-index: 4;
 }
 
-#menuToggle input:checked ~ ul {
+#menuToggle input:checked~ul {
   transform: none;
   z-index: 4;
 }
@@ -304,10 +304,10 @@ a:hover {
   }
 
   main {
-    background: url('./img/personList-background.png') left 18% no-repeat,
-      url('./img/personList-background2.png') right 18% no-repeat,
+    background: url('./img/personList-background.png') left 89% no-repeat,
+      url('./img/personList-background2.png') right 89% no-repeat,
       url('./img/couple.png') calc(100% + 10px) 52% no-repeat,
-      url('./img/teachers-background.png') right 72% no-repeat;
+      url('./img/teachers-background.png') right 99% no-repeat;
   }
 
   #defaultNav {
@@ -347,10 +347,6 @@ a:hover {
     -webkit-overflow-scrolling: auto;
   }
 
-  body {
-    overflow-y: auto;
-  }
-
   body::-webkit-scrollbar {
     width: 0.7em;
   }
@@ -373,8 +369,8 @@ a:hover {
 
   #defaultNav {
     min-width: 600px;
-    max-width: 800px;
-    width: 65%;
+    max-width: 900px;
+    width: 75%;
   }
 
   #defaultMenu {
@@ -394,19 +390,20 @@ a:hover {
   }
 
   body {
+    overflow-y: auto;
     -moz-osx-font-smoothing: grayscale;
-    background: url('./img/header.png') top center no-repeat,
-      url('./img/footer.png') bottom center no-repeat;
+    background: url('./img/header.png') center top no-repeat,
+      url('./img/footer.png') center calc(100% + 150px) no-repeat;
     background-size: 100vw auto;
   }
 
   main {
-    background: url('./img/personList-background.png') left 25% no-repeat,
-      url('./img/personList-background2.png') right 25% no-repeat,
-      url('./img/girlAndBoy1.png') 6% 47% no-repeat,
-      url('./img/girlAndBoy2.png') 97% 53.5% no-repeat,
-      url('./img/left-background.png') left 53% no-repeat,
-      url('./img/right-background.png') right 53% no-repeat,
-      url('./img/teachers-backgroundLaptop.png') right 87% no-repeat;
+    background: url('./img/personList-background.png') left 87% no-repeat,
+      url('./img/personList-background2.png') right 87% no-repeat,
+      url('./img/girlAndBoy1.png') 6% 29% no-repeat,
+      url('./img/girlAndBoy2.png') 97% 35% no-repeat,
+      url('./img/left-background.png') left 33% no-repeat,
+      url('./img/right-background.png') right 33% no-repeat,
+      url('./img/teachers-backgroundLaptop.png') right 100% no-repeat;
   }
 }

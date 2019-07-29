@@ -19,6 +19,9 @@ const Header = ({ typeOfDevice, children }) => (
           <span></span>
           <span></span>
           <ul id="menu">
+            <a href="#whoWeAre">
+              <li>О нас</li>
+            </a>
             <a href="#teachers">
               <li>Преподаватели</li>
             </a>
@@ -35,6 +38,9 @@ const Header = ({ typeOfDevice, children }) => (
     ) : (
       <nav id="defaultNav">
         <ul id="defaultMenu">
+          <li className={styles.menuItem}>
+            <a href="#whoWeAre">О нас</a>
+          </li>
           <li className={styles.menuItem}>
             <a href="#teachers">Преподаватели</a>
           </li>

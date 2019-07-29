@@ -5,6 +5,7 @@ import englishModules from '../../mock/englishModules.json';
 import businessSkills from '../../mock/businessSkills.json';
 import englishSkills from '../../mock/englishSkills.json';
 import teachers from '../../mock/teachers.json';
+import WhoWeAreList from '../../mock/WhoWeAreList.json';
 
 import Loader from '../Loader/Loader';
 import Header from '../Header/Header';
@@ -16,6 +17,7 @@ import ModulesList from '../ModulesList/ModulesList';
 import SkillsList from '../SkillsList/SkillsList';
 import TeachersSlider from '../TeachersSlider/TeachersSlider';
 import EducationFormatList from '../EducationFormatList/EducationFormatList';
+import WhoWeAre from '../WhoWeAre/WhoWeAre';
 import Footer from '../Footer/Footer';
 
 const h2Style = {
@@ -33,7 +35,7 @@ const h2Style = {
 const h2Style768 = {
   textTransform: 'uppercase',
   padding: '12px 6px',
-  margin: '0 auto',
+  margin: '20px auto',
   backgroundColor: '#FFF',
   boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
   textAlign: 'center',
@@ -46,7 +48,7 @@ const h2Style1024 = {
   whiteSpace: 'nowrap',
   textTransform: 'uppercase',
   padding: '12px 6px',
-  margin: '0 auto',
+  margin: '30px auto',
   backgroundColor: '#FFF',
   boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
   textAlign: 'center',
@@ -57,7 +59,7 @@ const h2Style1024 = {
 const h1Style = {
   color: '#FAFAFA',
   textTransform: 'uppercase',
-  margin: '16vw 0 15vh 8px',
+  margin: '17vw 0 13vh 8px',
   lineHeight: '1.1',
   textAlign: 'center',
   fontSize: 13,
@@ -75,11 +77,34 @@ const h1Style768 = {
 const h1Style1024 = {
   color: '#FFF',
   textTransform: 'uppercase',
-  margin: '6vw 1em 1em 5vw',
+  margin: '8.5vw 1em 1em 5vw',
   lineHeight: '1.1',
   fontWeight: '500',
   textAlign: 'center',
   fontSize: 40,
+};
+
+const startDate = {
+  textTransform: 'uppercase',
+  padding: '12px 6px',
+  marginBottom: '4vh',
+  textAlign: 'center',
+  backgroundColor: 'rgba(255, 255, 255, 0.6)',
+  boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
+  fontSize: 13,
+  fontWeight: 500,
+  lineHeight: '1.2',
+};
+
+const startDate1024 = {
+  textTransform: 'uppercase',
+  padding: '12px 6px',
+  textAlign: 'center',
+  backgroundColor: 'rgba(255, 255, 255, 0.7)',
+  boxShadow: '0px 4px 15px 1px rgba(0,0,0,0.2)',
+  fontSize: 16,
+  fontWeight: 500,
+  lineHeight: '1.2',
 };
 
 const flexColumn = {
@@ -98,6 +123,8 @@ const flexColumn2 = {
 };
 
 const marginBottom50px = { marginBottom: 50 };
+
+const main = { marginBottom: 320 };
 
 const students = {
   width: '90%',
@@ -431,7 +458,7 @@ export default class Page extends Component {
             onClick={this.closeMailing}
           />
         )}
-        <main>
+        <main style={main}>
           <section style={flexColumn}>
             <h1
               style={
@@ -442,6 +469,9 @@ export default class Page extends Component {
               мы вдохновляем подростков раскрывать <br />
               свой потенциал
             </h1>
+            <h2 style={width < 1024 ? startDate : startDate1024}>
+              Запуск курса 7 сентября 2019 года
+            </h2>
             {width < 1024 ? (
               <img
                 style={width < 768 ? students : students768}
@@ -461,38 +491,8 @@ export default class Page extends Component {
             />
           </section>
           <section style={flexColumn2}>
-            <h2
-              style={
-                // eslint-disable-next-line no-nested-ternary
-                width < 768 ? h2Style : width < 1024 ? h2Style768 : h2Style1024
-              }
-            >
-              присоединяйся к успешным подросткам 21 века
-            </h2>
-            {width >= 768 &&
-              (width < 1024 ? (
-                <img
-                  style={students768}
-                  src="./img/students2.png"
-                  alt="students"
-                />
-              ) : (
-                <img
-                  style={students1024}
-                  src="./img/students2Laptop.png"
-                  alt="students"
-                />
-              ))}
+            <WhoWeAre items={WhoWeAreList} />
           </section>
-          <PersonList items={persons} />
-          <h2
-            style={
-              // eslint-disable-next-line no-nested-ternary
-              width < 768 ? h2Style : width < 1024 ? h2Style768 : h2Style1024
-            }
-          >
-            путь успеха для вашего подростка
-          </h2>
           <ModulesList
             title1="бизнес старт"
             title2="english"
@@ -509,11 +509,20 @@ export default class Page extends Component {
             business={businessSkills}
             english={englishSkills}
           />
-          <TeachersSlider title="наши преподаватели" teachers={teachers} />
           <EducationFormatList
             title="формат обучения"
             onClick={this.openModal}
           />
+          <h2
+            style={
+              // eslint-disable-next-line no-nested-ternary
+              width < 768 ? h2Style : width < 1024 ? h2Style768 : h2Style1024
+            }
+          >
+            ЛУЧШИЕ ПОДРОСТКОВЫЕ СТАРТАПЫ
+          </h2>
+          <PersonList items={persons} />
+          <TeachersSlider title="наши преподаватели" teachers={teachers} />
         </main>
         <Footer
           onOpenPolicy={this.openPolicy}
