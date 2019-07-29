@@ -16,12 +16,10 @@
   padding: 6px 6px 3px 6px;
   margin: 0 auto 10px auto;
   text-transform: uppercase;
-  background: linear-gradient(
-    to right,
-    rgba(183, 216, 227, 1) 0%,
-    rgba(183, 216, 227, 0.74) 37%,
-    rgba(183, 216, 227, 0.09) 100%
-  );
+  background: linear-gradient(to right,
+      rgba(183, 216, 227, 1) 0%,
+      rgba(183, 216, 227, 0.74) 37%,
+      rgba(183, 216, 227, 0.09) 100%);
 }
 
 .container {

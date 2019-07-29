@@ -5,12 +5,10 @@
   padding: 6px 6px 3px 6px;
   margin: 16px 16px 16px 0;
   text-transform: uppercase;
-  background: linear-gradient(
-    to right,
-    rgba(183, 216, 227, 1) 0%,
-    rgba(183, 216, 227, 0.74) 37%,
-    rgba(183, 216, 227, 0.09) 100%
-  );
+  background: linear-gradient(to right,
+      rgba(183, 216, 227, 1) 0%,
+      rgba(183, 216, 227, 0.74) 37%,
+      rgba(183, 216, 227, 0.09) 100%);
 }
 
 .list {
@@ -41,8 +39,7 @@
   .list1 {
     max-width: 600px;
     padding: 25px 0;
-    background: url('../../img/businessModules-background.png') center 70px
-      no-repeat;
+    background: url('../../img/businessModules-background.png') center 70px no-repeat;
   }
 
   .list2 {
@@ -55,14 +52,14 @@
 
 @media (min-width: 1024px) {
   .title {
+    margin: 0 auto;
     font-size: 30px;
     padding: 14px 16px 10px 15px;
   }
 
   .list1 {
     max-width: 900px;
-    background: url('../../img/businessModules-background.png') center 120px
-      no-repeat;
+    background: url('../../img/businessModules-background.png') center 120px no-repeat;
     padding-bottom: 60px;
   }
 
