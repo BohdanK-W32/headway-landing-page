@@ -370,7 +370,7 @@ a:hover {
   #defaultNav {
     min-width: 600px;
     max-width: 900px;
-    width: 75%;
+    width: 80%;
   }
 
   #defaultMenu {
@@ -400,7 +400,7 @@ a:hover {
   main {
     background: url('./img/personList-background.png') left 87% no-repeat,
       url('./img/personList-background2.png') right 87% no-repeat,
-      url('./img/girlAndBoy1.png') 6% 29% no-repeat,
+      url('./img/girlAndBoy1.png') 2% 31% no-repeat,
       url('./img/girlAndBoy2.png') 97% 35% no-repeat,
       url('./img/left-background.png') left 33% no-repeat,
       url('./img/right-background.png') right 33% no-repeat,
