@@ -53,7 +53,7 @@ export default class Form extends Component {
 
     axios
       .post(
-        'https://headway-json.herokuapp.com/registeredUsers_308b1b02d690',
+        'https://headway-json.herokuapp.com/api/registeredUsers_308b1b02d690',
         dataObj,
       )
       .then(response => {
