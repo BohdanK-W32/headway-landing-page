@@ -33,7 +33,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -41,8 +41,7 @@
     "lint:fix": "eslint src/**/*.js --fix",
     "lint:format": "prettier src/**/*.{js,css,json} --write",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "heroku-postbuild": "npm run build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
