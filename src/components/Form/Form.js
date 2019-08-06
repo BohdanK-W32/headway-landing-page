@@ -14,7 +14,7 @@ const INITIAL_STATE = {
 export default class Form extends Component {
   state = { ...INITIAL_STATE };
 
-  propTypes = {
+  static propTypes = {
     changeError: PropTypes.func.isRequired,
     changeOk: PropTypes.func.isRequired,
   };
