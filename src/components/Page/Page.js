@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+
 import persons from '../../mock/persons.json';
 import businessModules from '../../mock/businessModules.json';
 import englishModules from '../../mock/englishModules.json';
@@ -366,6 +368,16 @@ export default class Page extends Component {
     ok: false,
   };
 
+  static propTypes = {
+    // eslint-disable-next-line react/forbid-prop-types
+    history: PropTypes.object.isRequired,
+    location: PropTypes.shape({
+      hash: PropTypes.string.isRequired,
+      pathname: PropTypes.string.isRequired,
+      search: PropTypes.string.isRequired,
+    }).isRequired,
+  };
+
   componentDidMount() {
     this.updateWindowDimensions();
     window.addEventListener('resize', this.updateWindowDimensions);
@@ -426,6 +438,8 @@ export default class Page extends Component {
       isPrivacyPolicyOpen,
     } = this.state;
 
+    const { history } = this.props;
+
     return (
       <>
         {isLoading && <Loader />}
@@ -442,6 +456,7 @@ export default class Page extends Component {
             changeOk={this.changeOk}
             changeError={this.changeError}
             onClick={this.closeModal}
+            history={history}
           />
         )}
         {isPrivacyPolicyOpen && (

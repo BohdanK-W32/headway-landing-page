@@ -25,6 +25,7 @@
     "react": "^16.8.6",
     "react-burger-menu": "^2.6.10",
     "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-spinners-kit": "^1.9.0",
     "serve": "^11.1.0",
@@ -32,7 +33,6 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "dev": "react-scripts start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

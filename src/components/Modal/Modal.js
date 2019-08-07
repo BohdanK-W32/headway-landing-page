@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import style from './Modal.module.css';
 import Form from '../Form/Form';
 
-const Modal = ({ ok, error, changeError, changeOk, onClick }) => (
+const Modal = ({ ok, error, changeError, changeOk, onClick, history }) => (
   <div className={style.wrapper}>
     <div className={style.modal}>
       {!error && !ok && <h2 className={style.title}>Оформить заявку</h2>}
@@ -21,7 +21,12 @@ const Modal = ({ ok, error, changeError, changeOk, onClick }) => (
         <span className={style.span} />
       </button>
       {!error && !ok && (
-        <Form changeError={changeError} changeOk={changeOk} close={onClick} />
+        <Form
+          changeError={changeError}
+          changeOk={changeOk}
+          close={onClick}
+          history={history}
+        />
       )}
     </div>
   </div>
@@ -33,6 +38,8 @@ Modal.propTypes = {
   changeError: PropTypes.func.isRequired,
   changeOk: PropTypes.func.isRequired,
   onClick: PropTypes.func.isRequired,
+  // eslint-disable-next-line react/forbid-prop-types
+  history: PropTypes.object.isRequired,
 };
 
 export default Modal;

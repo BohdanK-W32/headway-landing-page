@@ -17,6 +17,8 @@ export default class Form extends Component {
   static propTypes = {
     changeError: PropTypes.func.isRequired,
     changeOk: PropTypes.func.isRequired,
+    // eslint-disable-next-line react/forbid-prop-types
+    history: PropTypes.object.isRequired,
   };
 
   handleChange = e => {
@@ -49,7 +51,7 @@ export default class Form extends Component {
 
   // eslint-disable-next-line class-methods-use-this
   post(dataObj) {
-    const { changeError, changeOk } = this.props;
+    const { changeError, changeOk, history } = this.props;
 
     axios
       .post(
@@ -59,6 +61,7 @@ export default class Form extends Component {
       .then(response => {
         if (response.status === 200 || response.status === 201) {
           changeOk();
+          history.push('/thanks');
         } else {
           changeError();
         }
