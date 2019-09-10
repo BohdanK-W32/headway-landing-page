@@ -485,7 +485,7 @@ export default class Page extends Component {
               свой потенциал
             </h1>
             <h2 style={width < 1024 ? startDate : startDate1024}>
-              Запуск курса 7 сентября 2019 года
+              Запуск курса 14 сентября 2019 года
             </h2>
             {width < 1024 ? (
               <img
