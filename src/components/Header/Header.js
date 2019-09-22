@@ -53,7 +53,13 @@ const Header = ({ typeOfDevice, children }) => (
               </li>
 
               <li className={styles.submenuItem}>
-                <a href="#educationFormat">English</a>
+                <a
+                  href="http://eng.headwayua.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  English
+                </a>
               </li>
             </ul>
           </li>
