@@ -86,6 +86,7 @@ const h1Style1024 = {
   fontSize: 40,
 };
 
+// eslint-disable-next-line no-unused-vars
 const startDate = {
   textTransform: 'uppercase',
   padding: '12px 6px',
@@ -98,6 +99,7 @@ const startDate = {
   lineHeight: '1.2',
 };
 
+// eslint-disable-next-line no-unused-vars
 const startDate1024 = {
   textTransform: 'uppercase',
   padding: '12px 6px',
@@ -484,9 +486,9 @@ export default class Page extends Component {
               мы вдохновляем подростков раскрывать <br />
               свой потенциал
             </h1>
-            <h2 style={width < 1024 ? startDate : startDate1024}>
+            {/* <h2 style={width < 1024 ? startDate : startDate1024}>
               Запуск курса 14 сентября 2019 года
-            </h2>
+            </h2> */}
             {width < 1024 ? (
               <img
                 style={width < 768 ? students : students768}
